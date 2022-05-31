@@ -11,49 +11,50 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Master of Computer Science (MCS), University of Virginia, 2022
+* B.S. in Computer Science, North Carolina State University, 2019
+  * Minor in Mathematics
+* B.S. in Electrical Engineering, North Carolina State University, 2019
+* B.S. in Computer Engineering, North Carolina State University, 2019
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Fall 2019-Present: Research Assistant 
+  * [LESS Lab](https://less-lab-uva.github.io/) at University of Virginia
+  * Co-advised by Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2018-Spring 2019: Research Assistant
+  * [Theory in Practice Lab](https://www.cs.utah.edu/~sullivan/#!/) at North Carolina State University
+  * Advised by Dr. Blair D. Sullivan
+
+* Summer 2016, Summer 2017: Software Development Internship
+  * Fidelity Investments, Durham, NC
+  * Java development, unit testing, and performance analysis
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* November 2015-May 2019: Android Developer
+  * Bamboo Mobile Health, Raleigh, NC
+  * Developed and maintained the MS101.me app
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-teaching.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Awards
 ======
-* Currently signed in to 43 different slack teams
+* *FIRST* Tech Challenge Volunteer of the Year (2021)
+* Eagle Scout (2013)

@@ -13,7 +13,7 @@
   margin-bottom: 0;
   padding-left: 2em;
   padding-right: 2em;
-  font-family: $sans-serif;
+  font-family: $monospace;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.30s;
@@ -34,7 +34,7 @@
     font-size: $type-size-6;
 
     @include breakpoint($large) {
-      @include span(10 of 12 last);
+      @include span(9 of 12 last);
     }
 
     @include breakpoint($x-large) {
@@ -66,7 +66,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: $sans-serif;
+    font-family: $global-font-family;
   }
 
   li {
@@ -77,13 +77,13 @@
     a {
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
-      font-family: $sans-serif;
+      font-family: $global-font-family;
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: mix(#fff, $gray, 25%);
+      color: $text-color;
       border: 1px solid $light-gray;
       border-radius: 0;
 
@@ -126,12 +126,12 @@
     padding: 1em 2em;
     float: left;
     width: 50%;
-    font-family: $sans-serif;
+    font-family: $global-font-family;
     font-size: $type-size-5;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: mix(#fff, $gray, 50%);
+    color: $text-color;
     border: 1px solid $light-gray;
     border-radius: $border-radius;
 
@@ -181,11 +181,11 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $masthead-link-color;
+    color: $text-color;
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: $info-color;
     }
   }
 
@@ -348,7 +348,7 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 1rem;
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
   font-size: $type-size-5;
   font-weight: bold;
 }
@@ -357,7 +357,7 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.5rem 0;
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
@@ -370,7 +370,7 @@
    ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
   color: $gray;
   text-transform: uppercase;
   letter-spacing: 1px;
