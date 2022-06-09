@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Trey Woodlief"
-  avatar           : "trey.png"
+  avatar           : "trey.jpg"
   lab              : "https://less-lab-uva.github.io/"
   bio              : "Computer Science Ph.D. student at UVA. Interested in autonomous system safety."
   location         : "University of Virginia"
   employer         :
   pubmed           :
-  googlescholar    :
-  email            :
+  googlescholar    : https://scholar.google.com/citations?user=HKheGDcAAAAJ&hl=en
+  email            : adw8dm@virginia.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
