@@ -200,6 +200,10 @@ body:hover .visually-hidden button {
     color: $facebook-color;
   }
 
+  .fa-envelope {
+    color: $info-color;
+  }
+
   .fa-flickr {
     color: $flickr-color;
   }
@@ -222,6 +226,7 @@ body:hover .visually-hidden button {
     color: $location-color;
   }
 
+  .fa-graduation-cap,
   .fa-google-plus,
   .fa-google-plus-square {
     color: $google-plus-color;
