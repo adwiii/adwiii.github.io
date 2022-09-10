@@ -7,6 +7,7 @@ date: 2022-5-29
 venue: '44th International Conference on Software Engineering (ICSE 2022)'
 paperurl: 'https://github.com/less-lab-uva/perception_fuzzing/blob/main/Semantic%20Image%20Fuzzing%20of%20AI%20Perception%20Systems.pdf'
 citation: 'Trey Woodlief, Sebastian Elbaum, and Kevin Sullivan. 2022. Semantic Image Fuzzing of AI Perception Systems. In 44th International Conference on Software Engineering (ICSE ’22), May 21–29, 2022, Pittsburgh, PA, USA. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3510003.3510212'
+bibtex: '@inproceedings{woodlief2022semantic,  title={Semantic image fuzzing of AI perception systems},  author={Woodlief, Trey and Elbaum, Sebastian and Sullivan, Kevin},  booktitle={Proceedings of the 44th International Conference on Software Engineering}, pages={1958--1969}, year={2022}}'
 ---
 
 <a href='https://github.com/less-lab-uva/perception_fuzzing/blob/main/Semantic%20Image%20Fuzzing%20of%20AI%20Perception%20Systems.pdf'>Download paper here</a>

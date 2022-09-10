@@ -55,6 +55,9 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
+def format_bibtex(bibtex):
+    return bibtex
+
 # ## Creating the markdown files
 # 
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page. If you don't want something to appear (like the "Recommended citation")
@@ -87,13 +90,15 @@ for row, item in publications.iterrows():
         md += "\npaperurl: '" + item.paper_url + "'"
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
+
+    md += "\nbibtex: '" + format_bibtex(item.bibtex) + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n"
         
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"

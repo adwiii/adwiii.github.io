@@ -53,8 +53,17 @@
     {% endif %}
 
     {% if post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
+      <p>Recommended citation:
+        {% if post.bibtex %}
+        <a onclick="navigator.clipboard.writeText('{{post.bibtex}}');$(this).text('Copy BibTeX (Copied)');setTimeout(() => {$(this).text('Copy BibTeX')}, 5000);return false;" href="javascript:void(0);">Copy BibTeX</a>
+        {% endif %}
+        <br>
+        {{ post.citation }}
+      </p>
     {% endif %}
+
+
+
     {% if post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}

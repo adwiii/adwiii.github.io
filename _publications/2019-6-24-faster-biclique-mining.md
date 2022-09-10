@@ -7,6 +7,7 @@ date: 2019-6-24
 venue: 'International Symposium on Experimental Algorithms'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-34029-2_28'
 citation: 'Sullivan, Blair D., Andrew van der Poel, and Trey Woodlief. &quot;Faster Biclique Mining in Near-Bipartite Graphs.&quot; <i>International Symposium on Experimental Algorithms</i>. Springer, Cham, 2019.'
+bibtex: '@inproceedings{sullivan2019faster,  title={Faster Biclique Mining in Near-Bipartite Graphs},  author={Sullivan, Blair D and Poel, Andrew van der and Woodlief, Trey},  booktitle={International Symposium on Experimental Algorithms},  pages={424--453},  year={2019},  organization={Springer}}'
 ---
 
 <a href='https://link.springer.com/chapter/10.1007/978-3-030-34029-2_28'>Download paper here</a>

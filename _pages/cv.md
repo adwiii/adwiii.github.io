@@ -13,9 +13,10 @@ Education
 ======
 * Master of Computer Science (MCS), University of Virginia, 2022
 * B.S. in Computer Science, North Carolina State University, 2019
-  * Minor in Mathematics
 * B.S. in Electrical Engineering, North Carolina State University, 2019
 * B.S. in Computer Engineering, North Carolina State University, 2019
+  * Minor in Mathematics
+  * Graduated Valedictorian and Summa Cum Laude
 
 
 Work experience
