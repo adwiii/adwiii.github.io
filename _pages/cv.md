@@ -17,6 +17,7 @@ Education
 * B.S. in Computer Engineering, North Carolina State University, 2019
   * Minor in Mathematics
   * Graduated Valedictorian and Summa Cum Laude
+  * University Honors Program, Computer Science Honors Program, Phi Kappa Phi
 
 
 Work experience
