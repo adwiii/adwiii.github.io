@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Trey Woodlief"
 title_separator          : "-"
 name                     : &name "Trey Woodlief"
-description              : &description "Ph.D. Student Computer Science University of Virginia"
+description              : &description "PhD Student Computer Science University of Virginia"
 url                      : https://adwiii.github.io # the base hostname & protocol for your site e.g. "https://adwiii.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "adwiii/adwiii.github.io"
@@ -83,7 +83,7 @@ author:
   name             : "Trey Woodlief"
   avatar           : "trey.jpg"
   lab              : "https://less-lab-uva.github.io/"
-  bio              : "Computer Science Ph.D. student at UVA. Interested in autonomous system safety."
+  bio              : "Computer Science PhD student at UVA. Interested in autonomous system safety."
   location         : "University of Virginia"
   employer         :
   pubmed           :
