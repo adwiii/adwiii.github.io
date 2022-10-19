@@ -6,5 +6,6 @@ permalink: /teaching/2021-spring-teaching-2
 venue: "University of Virginia (Virtual)"
 date: 2021-01-19
 location: "Charlottesville, VA"
+course_website: https://less-lab-uva.github.io/CS4501-Spring2021/
 ---
 

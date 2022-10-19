@@ -17,7 +17,7 @@ Education
 * B.S. in Computer Engineering, North Carolina State University, 2019
   * Minor in Mathematics
   * Graduated Valedictorian and Summa Cum Laude
-  * University Honors Program, Computer Science Honors Program, Phi Kappa Phi
+  * University Honors Program, Computer Science Honors Program, Phi Kappa Phi, Eta Kappa Nu (IEEE-HKN)
 
 
 Work experience
@@ -58,5 +58,5 @@ Teaching
   
 Awards
 ======
-* *FIRST* Tech Challenge Volunteer of the Year (2021)
+* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) [Volunteer of the Year](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html) (2021)
 * Eagle Scout (2013)
