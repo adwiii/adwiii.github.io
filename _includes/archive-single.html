@@ -54,7 +54,7 @@
 
     {% if post.citation %}
       <p>Recommended citation:
-        {% if post.bibtex %}
+        {% if post.bibtex and post.bibtex != 'Coming soon' %}
         <a onclick="navigator.clipboard.writeText('{{post.bibtex}}');$(this).text('Copy BibTeX (Copied)');setTimeout(() => {$(this).text('Copy BibTeX')}, 5000);return false;" href="javascript:void(0);">Copy BibTeX</a>
         {% endif %}
         <br>
