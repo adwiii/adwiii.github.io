@@ -1,5 +1,5 @@
 ---
-title: "Spring 2022 - Senior Teaching Assistant"
+title: "Fall 2022 - Senior Teaching Assistant"
 collection: teaching
 type: "CS 4501 Robotics for Software Engineers"
 permalink: /teaching/2021-fall-teaching-4
