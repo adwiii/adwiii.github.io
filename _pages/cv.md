@@ -58,5 +58,6 @@ Teaching
   
 Awards
 ======
+* University of Virginia All-University Graduate Teaching Award (2022-2023)
 * [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) [Volunteer of the Year](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html) (2021)
 * Eagle Scout (2013)

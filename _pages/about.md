@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Science at the University of Virginia interested in autonomous system safety. 
+I am a PhD candidate in Computer Science at the University of Virginia interested in autonomous system safety. 
 I am a member of the [LESS Lab](https://less-lab-uva.github.io/) and co-advised by Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan).
 My research focuses on methods for measuring and improving autonomous system safety and correctness. 
 Autonomous systems interact with the physical world and thus are almost always safety critical systems that require careful scrutiny.
