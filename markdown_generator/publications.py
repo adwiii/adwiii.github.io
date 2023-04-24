@@ -24,7 +24,7 @@
 # In[2]:
 
 import pandas as pd
-
+import numpy as np
 
 # ## Import TSV
 # 
@@ -75,9 +75,9 @@ for row, item in publications.iterrows():
     
     md = "---\ntitle: \""   + item.title + '"\n'
     
-    md += """collection: publications"""
+    md += "collection: publications"
     
-    md += """\npermalink: /publication/""" + html_filename
+    md += "\npermalink: /publication/" + html_filename
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
@@ -92,14 +92,26 @@ for row, item in publications.iterrows():
     md += "\ncitation: '" + html_escape(item.citation) + "'"
 
     md += "\nbibtex: '" + format_bibtex(item.bibtex) + "'"
+    image = (item.image if type(item.image) == str else '')
+    if len(image) > 0:
+        md += "\nimage: '" + image + "'"
+
+    gh = (item.github if type(item.github) == str else '')
+    if len(gh) > 0:
+        md += "\ngithub: '" + gh + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n"
-        
+        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>"
+    if len(gh) > 0 and len(str(item.paper_url)) > 5:
+        md += ('&nbsp;' * 2)
+    if len(gh) > 0:
+        md += '<a href="' + gh + '"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>'
+    if len(gh) > 0 or len(str(item.paper_url)) > 5:
+        md += '\n'
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
 

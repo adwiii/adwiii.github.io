@@ -33,6 +33,16 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+    {% if post.image %}
+    <div class="archive__item-image">
+      {% if post.link %}
+      <a href="{{ post.link }}"><img src="{{ post.image }}" alt=""></a>
+      {% else %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"><img src="{{ post.image }}" alt=""></a>
+      {% endif %}
+    </div>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -65,8 +75,13 @@
 
 
     {% if post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a>
+        {% if post.github %}
+          or <a href="{{ post.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+        {% endif %}
+      </p>
     {% endif %}
 
   </article>
+  <hr>
 </div>

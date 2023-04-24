@@ -8,6 +8,7 @@ venue: '2021 IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9561627'
 citation: 'T. Woodlief, S. Elbaum and K. Sullivan, &quot;Fuzzing Mobile Robot Environments for Fast Automated Crash Detection,&quot; <i>2021 IEEE International Conference on Robotics and Automation (ICRA)</i>, 2021, pp. 5417-5423, doi: 10.1109/ICRA48506.2021.9561627.'
 bibtex: '@inproceedings{woodlief2021fuzzing,  title={Fuzzing Mobile Robot Environments for Fast Automated Crash Detection},  author={Woodlief, Trey and Elbaum, Sebastian and Sullivan, Kevin},  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},  pages={5417--5423},  year={2021},  organization={IEEE}}'
+image: '/images/icra_fuzzing.png'
 ---
 
 <a href='https://ieeexplore.ieee.org/abstract/document/9561627'>Download paper here</a>

@@ -8,6 +8,7 @@ venue: '44th International Conference on Software Engineering: Software Engineer
 paperurl: 'https://hildebrandt-carl.com/files/2022-05-21-ICSE-SERobotics.pdf'
 citation: 'Carl Hildebrandt, Meriel von Stein, Trey Woodlief, and Sebastian Elbaum. 2022. Preparing Software Engineers to Develop Robot Systems. In 44th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET ’22), May 21–29, 2022, Pittsburgh, PA, USA. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3510456.3514161'
 bibtex: '@INPROCEEDINGS{hildebrandt2022preparing,  author={Hildebrandt, Carl and Stein, Meriel von and Woodlief, Trey and Elbaum, Sebastian},  booktitle={2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)},   title={Preparing Software Engineers to Develop Robot Systems}, year={2022},  pages={205-216},  doi={10.1145/3510456.3514161}}'
+image: '/images/cs4501_fall22_project.gif'
 ---
 
 <a href='https://hildebrandt-carl.com/files/2022-05-21-ICSE-SERobotics.pdf'>Download paper here</a>
