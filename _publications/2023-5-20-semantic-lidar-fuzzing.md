@@ -6,7 +6,7 @@ excerpt: 'Autonomous systems rely on a perception component to interpret their  
 date: 2023-5-20
 venue: '45th International Conference on Software Engineering (ICSE 2023)'
 paperurl: 'https://github.com/less-lab-uva/semLidarFuzz/blob/master/Generating%20Realistic%20and%20Diverse%20Tests%20for%20LiDAR-Based%20Perception%20Systems.pdf'
-citation: 'Coming soon'
+citation: 'Garrett Christian, Trey Woodlief, and Sebastian Elbaum. 2023. Generating Realistic and Diverse Tests for LiDAR-Based Perception Systems. In 45th International Conference on Software Engineering (ICSE ’23), May 17–19, 2023, Melbourne, VIC, AU. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1109/ICSE48619.2023.00217'
 bibtex: '@inproceedings{christian2023generating,title={Generating Realistic and Diverse Tests for LiDAR-Based Perception Systems},author={Christian, Garrett and Woodlief, Trey and Elbaum, Sebastian},booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},pages={2604--2616},year={2023},organization={IEEE}}'
 image: '/images/semLidarFuzz.png'
 github: 'https://github.com/less-lab-uva/semLidarFuzz'

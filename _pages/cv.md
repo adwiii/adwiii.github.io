@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+# Education
 * Master of Computer Science (MCS), University of Virginia, 2022
 * B.S. in Computer Science, North Carolina State University, 2019
 * B.S. in Electrical Engineering, North Carolina State University, 2019
@@ -20,8 +19,7 @@ Education
   * University Honors Program, Computer Science Honors Program, Phi Kappa Phi, Eta Kappa Nu (IEEE-HKN)
 
 
-Work experience
-======
+# Work experience
 * Fall 2019-Present: Research Assistant 
   * [LESS Lab](https://less-lab-uva.github.io/) at University of Virginia
   * Co-advised by Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
@@ -38,26 +36,41 @@ Work experience
   * Bamboo Mobile Health, Raleigh, NC
   * Developed and maintained the MS101.me app
 
-Publications
-======
+# Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+# Talks
+<p>
+  <details>
+    <summary>Show {{ site.talks.size }} Talks</summary>
+    <ul>{% for post in site.talks reversed %}
+      {% include archive-single-talk-cv.html %}
+    {% endfor %}</ul>
+  </details>
+</p>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-teaching.html %}
-  {% endfor %}</ul>
-  
-Awards
-======
+# Teaching
+<p>
+<details>
+    <summary>Show {{ site.teaching.size }} Courses</summary>
+    <ul>{% for post in site.teaching reversed %}
+      {% include archive-single-teaching.html %}
+    {% endfor %}</ul>
+  </details>
+</p>
+
+# Awards
 * University of Virginia All-University Graduate Teaching Award (2022-2023)
-* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) [Volunteer of the Year](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html) (2021)
+* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) [Global Volunteer of the Year](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html) (2021)
 * Eagle Scout (2013)
+
+# Service
+## Academic
+<details>
+<summary>Expand</summary>
+<ul>
+<li>ICRA'22 Reviewer</li>
+</ul>
+</details>
