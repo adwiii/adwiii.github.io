@@ -11,6 +11,14 @@ $(document).ready(function(){
 
   bumpIt();
 
+  $(".citation").each(function() {
+    let replaces = ['Trey Woodlief', 'T\\. Woodlief', 'T Woodlief', 'Woodlief']
+    for (let replace in replaces) {
+      let regex = RegExp(replace, 'g');
+      $(this).html($(this).html().replace(regex, '<span class="highlight_me">'+replace+'</span>'));
+    }
+  })
+
   $(window).resize(function() {
     didResize = true;
   });

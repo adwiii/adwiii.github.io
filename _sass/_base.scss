@@ -7,6 +7,12 @@ html {
   min-height: 100%;
 }
 
+
+.highlight_me {
+  color: $info-color;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   padding: 0;

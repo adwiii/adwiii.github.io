@@ -36,12 +36,12 @@ redirect_from:
   * Bamboo Mobile Health, Raleigh, NC
   * Developed and maintained the MS101.me app
 
-# Publications
+# [Publications](/publications)
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-# Talks
+# [Talks](/talks)
 <p>
   <details>
     <summary>Show {{ site.talks.size }} Talks</summary>
@@ -51,7 +51,7 @@ redirect_from:
   </details>
 </p>
   
-# Teaching
+# [Teaching](/teaching)
 <p>
 <details>
     <summary>Show {{ site.teaching.size }} Courses</summary>

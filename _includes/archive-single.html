@@ -64,11 +64,11 @@
 
     {% if post.citation %}
       <p>Recommended citation:
-        {% if post.bibtex and post.bibtex != 'Coming soon' %}
+        {% if post.bibtex and post.bibtex != 'Coming soon' and post.bibtex != 'Bibtex Coming Soon' %}
         <a onclick="navigator.clipboard.writeText('{{post.bibtex}}');$(this).text('Copy BibTeX (Copied)');setTimeout(() => {$(this).text('Copy BibTeX')}, 5000);return false;" href="javascript:void(0);">Copy BibTeX</a>
         {% endif %}
         <br>
-        {{ post.citation }}
+        <span class="citation">{{ post.citation }}</span>
       </p>
     {% endif %}
 
