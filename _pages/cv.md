@@ -77,7 +77,7 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 # Awards
 ## Academic
 * University of Virginia All-University Graduate Teaching Award (2022-2023)
-* NC State University Dr. Donald L. Bitzer Creativity Award (2019)
+* NC State Computer Science Dr. Donald L. Bitzer Creativity Award (2019)
 
 ## Extracurricular
 * [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) [Global Volunteer of the Year](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html) (2021)
@@ -117,7 +117,7 @@ Years given are for the spring semester of that academic year.
 {% assign total_event_count = total_event_count | plus: season.events.size %}
 {% endfor %}
 ### Volunteering at *FIRST* Events ({{ total_event_count }} Events across {{ number_of_seasons }} Seasons)
-I volunteer at as many *FIRST* events as I can each season. I try to keep this list updated with the events I will volunteer at in the future, so feel free to stop by :).
+I volunteer at as many *FIRST* events as I can each season. I try to keep this list updated with the events I will volunteer at in the future, so feel free to stop by.
 
 {% for season in site.data.first %}
   {% assign season_start_year = season.season | minus: 1 %}
