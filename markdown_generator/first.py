@@ -9,8 +9,10 @@ class EventVolunteering:
     def __init__(self, row):
         self.event = row['Event'].strip()
         self.program = row['Program'].strip()
+        if self.program == 'FLL Challenge':
+            self.program = 'FLL-C'
         self.season = row['Season']
-        if any([(p in self.program) for p in ['FLL', 'FTC']]):
+        if any([(p in self.program) for p in ['FLL-C', 'FTC']]):
             # for some reason this uses season start
             # instead, normalize to championship year
             self.season += 1

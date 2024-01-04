@@ -11,6 +11,8 @@ redirect_from:
 
 My legal name is Alan, which may appear in some places that show given name, e.g. [ORCID](https://orcid.org/0000-0001-9803-8303); I have always gone by Trey.
 
+---
+
 # Education
 * Master of Computer Science (MCS), University of Virginia, 2022
 * B.S. in Computer Science, North Carolina State University, 2019
@@ -101,7 +103,7 @@ I am an active volunteer for [*FIRST*](https://www.firstinspires.org/), a non-pr
 ### Positions Held
 Years given are for the spring semester of that academic year.
 * *FIRST* Chesapeake Alumni Ambassador 2020, 2022, 2023, 2024
-* [FTC Live](https://github.com/FIRST-Tech-Challenge/scorekeeper) Scoring System Co-Creator and Developer 2019-Present
+* [FTCLive](https://github.com/FIRST-Tech-Challenge/scorekeeper) Scoring System Co-Creator and Developer 2019-Present
 * North Carolina FTC Planning Committee Member 2018-Present
 * FRC Head Referee (2022-Present) and Referee (2016-Present)
 * FTC Head Referee (2016-Present) and Referee (2016-Present)
@@ -122,7 +124,7 @@ I volunteer at as many *FIRST* events as I can each season. I try to keep this l
   <details>
   <summary>{{ season_start_year }} - {{ season.season }} ({{ season.events.size }} Events)</summary>
   <table>
-  <tr><th>Event Date</th><th>Program</th><th>Event</th><th>Role(s)</th></tr>
+  <tr><th>Event Date</th><th style="text-align: center">Program</th><th>Event</th><th>Role(s)</th></tr>
   {% for event in season.events %}
     <tr>
     <td>{{ event.event_start }}
@@ -130,7 +132,7 @@ I volunteer at as many *FIRST* events as I can each season. I try to keep this l
     - {{ event.event_end }}
     {% endif %}
     </td>
-    <td><span class="{{ event.program }}"> {{ event.program }} </span>
+    <td style="text-align: center"><span class="program-pill {{ event.program }}"> {{ event.program }} </span>
     </td>
     <td>{{ event.event }}</td>
     <td>{% for role in event.roles %}{{ role }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</td>

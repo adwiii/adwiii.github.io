@@ -13,6 +13,26 @@ html {
   font-weight: bold;
 }
 
+.program-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.FLL-C {
+  background-color: $FLL-color;
+}
+
+.FTC {
+  background-color: $FTC-color;
+}
+
+.FRC {
+  background-color: $FRC-color;
+}
+
 body {
   margin: 0;
   padding: 0;

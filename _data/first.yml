@@ -2,14 +2,14 @@
   - event: Central Carolina Community College FLL Qualifying Tournament
     event_end: 12/5/2015
     event_start: 12/5/2015
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Referee
     season: 2016
   - event: Triangle Math and Science FLL Qualifying Tournament
     event_end: 12/12/2015
     event_start: 12/12/2015
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Referee
     season: 2016
@@ -37,7 +37,7 @@
   - event: FIRST LEGO League State Championship (Bracket B)
     event_end: 2/7/2016
     event_start: 2/7/2016
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Referee
     season: 2016
@@ -96,21 +96,21 @@
   - event: Dudley High School FLL Qualifying Tournament
     event_end: 11/12/2016
     event_start: 11/12/2016
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Head Referee
     season: 2017
   - event: Triangle Math and Science FLL Qualifying Tournament
     event_end: 11/19/2016
     event_start: 11/19/2016
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Head Referee
     season: 2017
   - event: Flat Rock MS FLL Qualifying Tournament
     event_end: 12/3/2016
     event_start: 12/3/2016
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Head Referee
     season: 2017
@@ -126,7 +126,7 @@
       B)
     event_end: 1/15/2017
     event_start: 1/15/2017
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Referee
     season: 2017
@@ -201,14 +201,14 @@
   - event: Neal Magnet MS FLL Qualifying Tournament
     event_end: 12/2/2017
     event_start: 12/2/2017
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Head Referee
     season: 2018
   - event: Triangle Math and Science FLL Qualifying Tournament
     event_end: 12/16/2017
     event_start: 12/16/2017
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Head Referee
     season: 2018
@@ -230,7 +230,7 @@
       B)
     event_end: 1/21/2018
     event_start: 1/21/2018
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Referee
     season: 2018
@@ -292,7 +292,7 @@
   - event: Carver Middle School FLL Qualifying Tournament
     event_end: 1/12/2019
     event_start: 1/12/2019
-    program: FLL Challenge
+    program: FLL-C
     roles:
     - Head Referee
     season: 2019
