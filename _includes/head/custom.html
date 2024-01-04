@@ -40,7 +40,7 @@
 <script>
   $(document).ready(function() {
     $(".citation").each(function () {
-      let replaces = ['Trey Woodlief', 'T. Woodlief', 'T Woodlief', 'Woodlief']
+      let replaces = ['Trey Woodlief', 'T. Woodlief', 'T Woodlief', 'Woodlief'];
       for (let replace of replaces) {
         let regex = RegExp(replace, 'g');
         $(this).html($(this).html().replace(regex, '<span class="highlight_me">' + replace + '</span>'));
