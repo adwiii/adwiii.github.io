@@ -17,10 +17,13 @@ class EventVolunteering:
             # instead, normalize to championship year
             self.season += 1
         self.event_start = row['Event Start'].strip()
-        # get the start time for sorting
-        self.event_start_time = datetime.strptime(self.event_start, '%m/%d/%Y')
         self.event_end = row['Event End'].strip()
+        self.event_start_time = datetime.strptime(self.event_start, '%m/%d/%Y')
+        self.event_end_time = datetime.strptime(self.event_end, '%m/%d/%Y')
         self.roles = [row['Role'].strip()]
+        self.num_days = 1
+        if self.event_start != self.event_end:
+            self.num_days = (self.event_end_time - self.event_start_time).days
 
     def event_key(self):
         return f'{self.program}_{self.season}_{self.event}'
@@ -32,7 +35,8 @@ class EventVolunteering:
             'season': self.season,
             'event_start': self.event_start,
             'event_end': self.event_end,
-            'roles': self.roles
+            'roles': self.roles,
+            'num_days': self.num_days
         }
 
     def merge(self, other):
@@ -57,7 +61,8 @@ def main():
         season_map[event.season].append(event.as_dict())
     flattened_seasons = [{
         'season': season,
-        'events': events
+        'events': events,
+        'num_days': sum([event['num_days'] for event in events])
     } for season, events in season_map.items()]
     with open(f'{dir_path_parent}/_data/first.yml', 'w') as f:
         yaml.dump(flattened_seasons, f)

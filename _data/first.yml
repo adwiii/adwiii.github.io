@@ -2,6 +2,7 @@
   - event: NC FTC Kickoff
     event_end: 9/12/2015
     event_start: 9/12/2015
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -9,6 +10,7 @@
   - event: Central Carolina Community College FLL Qualifying Tournament
     event_end: 12/5/2015
     event_start: 12/5/2015
+    num_days: 1
     program: FLL-C
     roles:
     - Referee
@@ -16,6 +18,7 @@
   - event: Triangle Math and Science FLL Qualifying Tournament
     event_end: 12/12/2015
     event_start: 12/12/2015
+    num_days: 1
     program: FLL-C
     roles:
     - Referee
@@ -23,6 +26,7 @@
   - event: Cardinal Gibbons HS FTC Qualifying Tournament
     event_end: 1/16/2016
     event_start: 1/16/2016
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -30,6 +34,7 @@
   - event: TSDCH FTC Qualifying Tournament
     event_end: 1/30/2016
     event_start: 1/30/2016
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -37,6 +42,7 @@
   - event: Southern Guilford HS FTC Qualifying Tournament
     event_end: 2/6/2016
     event_start: 2/6/2016
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -44,6 +50,7 @@
   - event: FIRST LEGO League State Championship (Bracket B)
     event_end: 2/7/2016
     event_start: 2/7/2016
+    num_days: 1
     program: FLL-C
     roles:
     - Referee
@@ -51,6 +58,7 @@
   - event: Northern Guilford HS FTC Qualifying Tournament
     event_end: 2/13/2016
     event_start: 2/13/2016
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -58,6 +66,7 @@
   - event: FIRST Tech Challenge State Championship
     event_end: 2/20/2016
     event_start: 2/20/2016
+    num_days: 1
     program: FTC
     roles:
     - Robot Inspector
@@ -66,6 +75,7 @@
   - event: NC District - Guilford County Event
     event_end: 3/6/2016
     event_start: 3/4/2016
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -73,6 +83,7 @@
   - event: FTC South Super Regional Championship
     event_end: 3/11/2016
     event_start: 3/9/2016
+    num_days: 2
     program: FTC
     roles:
     - Referee
@@ -80,6 +91,7 @@
   - event: NC District - UNC Asheville Event
     event_end: 3/20/2016
     event_start: 3/18/2016
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -87,6 +99,7 @@
   - event: NC District - Campbell University/Johnston Community College Event
     event_end: 4/3/2016
     event_start: 4/1/2016
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -94,6 +107,7 @@
   - event: NC FIRST Robotics State Championship
     event_end: 4/10/2016
     event_start: 4/8/2016
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -101,6 +115,7 @@
   - event: FIRST Championship
     event_end: 4/30/2016
     event_start: 4/27/2016
+    num_days: 3
     program: FRC
     roles:
     - Referee
@@ -108,15 +123,18 @@
   - event: THOR
     event_end: 9/24/2016
     event_start: 9/24/2016
+    num_days: 1
     program: FRC
     roles:
     - Referee
     season: 2016
+  num_days: 23
   season: 2016
 - events:
   - event: NC FTC Kickoff
     event_end: 9/10/2016
     event_start: 9/10/2016
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -124,6 +142,7 @@
   - event: Dudley High School FLL Qualifying Tournament
     event_end: 11/12/2016
     event_start: 11/12/2016
+    num_days: 1
     program: FLL-C
     roles:
     - Head Referee
@@ -131,6 +150,7 @@
   - event: Triangle Math and Science FLL Qualifying Tournament
     event_end: 11/19/2016
     event_start: 11/19/2016
+    num_days: 1
     program: FLL-C
     roles:
     - Head Referee
@@ -138,6 +158,7 @@
   - event: Flat Rock MS FLL Qualifying Tournament
     event_end: 12/3/2016
     event_start: 12/3/2016
+    num_days: 1
     program: FLL-C
     roles:
     - Head Referee
@@ -145,6 +166,7 @@
   - event: Cardinal Gibbons HS FTC Qualifying Tournament
     event_end: 1/14/2017
     event_start: 1/14/2017
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -154,6 +176,7 @@
       B)
     event_end: 1/15/2017
     event_start: 1/15/2017
+    num_days: 1
     program: FLL-C
     roles:
     - Referee
@@ -161,6 +184,7 @@
   - event: Trinity School of Durham & Chapel Hill FTC Qualifying Tournament
     event_end: 1/28/2017
     event_start: 1/28/2017
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -168,6 +192,7 @@
   - event: Northern Guilford HS FTC Qualifying Tournament
     event_end: 2/4/2017
     event_start: 2/4/2017
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -175,6 +200,7 @@
   - event: North Carolina FIRST Tech Challenge Championship
     event_end: 2/18/2017
     event_start: 2/18/2017
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -182,6 +208,7 @@
   - event: NC District - Pitt County Event
     event_end: 3/5/2017
     event_start: 3/3/2017
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -189,6 +216,7 @@
   - event: NC District - Greensboro Event
     event_end: 3/11/2017
     event_start: 3/9/2017
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -198,6 +226,7 @@
   - event: NC District - UNC Asheville Event
     event_end: 3/19/2017
     event_start: 3/17/2017
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -205,6 +234,7 @@
   - event: NC District - Raleigh Event
     event_end: 3/25/2017
     event_start: 3/23/2017
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -212,6 +242,7 @@
   - event: FIRST North Carolina State Championship
     event_end: 4/2/2017
     event_start: 3/31/2017
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -220,6 +251,7 @@
   - event: FIRST Championship - Houston
     event_end: 4/22/2017
     event_start: 4/19/2017
+    num_days: 3
     program: FRC
     roles:
     - Referee
@@ -227,15 +259,18 @@
   - event: THOR
     event_end: 10/28/2017
     event_start: 10/28/2017
+    num_days: 1
     program: FRC
     roles:
     - Head Referee
     season: 2017
+  num_days: 23
   season: 2017
 - events:
   - event: NC FTC Kickoff
     event_end: 9/9/2017
     event_start: 9/9/2017
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -243,6 +278,7 @@
   - event: Neal Magnet MS FLL Qualifying Tournament
     event_end: 12/2/2017
     event_start: 12/2/2017
+    num_days: 1
     program: FLL-C
     roles:
     - Head Referee
@@ -250,6 +286,7 @@
   - event: Triangle Math and Science FLL Qualifying Tournament
     event_end: 12/16/2017
     event_start: 12/16/2017
+    num_days: 1
     program: FLL-C
     roles:
     - Head Referee
@@ -257,6 +294,7 @@
   - event: Cardinal Gibbons HS FTC Qualifying Tournament
     event_end: 1/13/2018
     event_start: 1/13/2018
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -264,6 +302,7 @@
   - event: AG Cox MS FTC Qualifying Tournament
     event_end: 1/20/2018
     event_start: 1/20/2018
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -272,6 +311,7 @@
       B)
     event_end: 1/21/2018
     event_start: 1/21/2018
+    num_days: 1
     program: FLL-C
     roles:
     - Referee
@@ -279,6 +319,7 @@
   - event: Southern Guilford HS FTC Qualifying Tournament
     event_end: 1/27/2018
     event_start: 1/27/2018
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -286,6 +327,7 @@
   - event: Northern Guilford HS FTC Qualifying Tournament
     event_end: 2/3/2018
     event_start: 2/3/2018
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -293,6 +335,7 @@
   - event: 2017-2018 NC FTC State Championship
     event_end: 2/10/2018
     event_start: 2/10/2018
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -300,6 +343,7 @@
   - event: FIRST Tech Challenge South Super Regional
     event_end: 3/10/2018
     event_start: 3/8/2018
+    num_days: 2
     program: FTC
     roles:
     - Scoring System Development
@@ -307,6 +351,7 @@
   - event: NC District UNC Pembroke Event
     event_end: 3/18/2018
     event_start: 3/16/2018
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -316,6 +361,7 @@
   - event: NC District UNC Asheville Event
     event_end: 3/25/2018
     event_start: 3/23/2018
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -323,6 +369,7 @@
   - event: FIRST North Carolina State Championship
     event_end: 4/8/2018
     event_start: 4/6/2018
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -332,15 +379,18 @@
   - event: THOR
     event_end: 9/29/2018
     event_start: 9/29/2018
+    num_days: 1
     program: FRC
     roles:
     - Head Referee
     season: 2018
+  num_days: 18
   season: 2018
 - events:
   - event: NC FTC Kickoff
     event_end: 9/8/2018
     event_start: 9/8/2018
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -348,6 +398,7 @@
   - event: Carver Middle School FLL Qualifying Tournament
     event_end: 1/12/2019
     event_start: 1/12/2019
+    num_days: 1
     program: FLL-C
     roles:
     - Head Referee
@@ -355,6 +406,7 @@
   - event: Farmville MS Qualifying Tournament
     event_end: 1/26/2019
     event_start: 1/26/2019
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -365,6 +417,7 @@
   - event: Northern Guilford HS Qualifying Tournament
     event_end: 2/2/2019
     event_start: 2/2/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -372,6 +425,7 @@
   - event: Southern Guilford HS Qualifying Tournament
     event_end: 2/9/2019
     event_start: 2/9/2019
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -379,6 +433,7 @@
   - event: Triangle Math and Science Academy Qualifying Tournament
     event_end: 2/16/2019
     event_start: 2/16/2019
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -386,6 +441,7 @@
   - event: North Carolina FIRST Tech Challenge Championship Tournament
     event_end: 3/2/2019
     event_start: 3/2/2019
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -393,6 +449,7 @@
   - event: FNC District Wake County Event
     event_end: 3/10/2019
     event_start: 3/8/2019
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -402,6 +459,7 @@
   - event: FNC District Guilford County Event
     event_end: 3/17/2019
     event_start: 3/15/2019
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -411,6 +469,7 @@
   - event: FNC District UNC Pembroke Event
     event_end: 3/31/2019
     event_start: 3/29/2019
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -420,6 +479,7 @@
   - event: FIRST North Carolina State Championship
     event_end: 4/7/2019
     event_start: 4/5/2019
+    num_days: 2
     program: FRC
     roles:
     - Field Assembly
@@ -428,6 +488,7 @@
   - event: Blue Ridge Brawl FIRST Robotics Competition Off-Season Competition
     event_end: 10/5/2019
     event_start: 10/5/2019
+    num_days: 1
     program: FRC
     roles:
     - Head Referee
@@ -435,6 +496,7 @@
   - event: IROC (ILITE Robotics Offseason Challenge)
     event_end: 10/26/2019
     event_start: 10/26/2019
+    num_days: 1
     program: FRC
     roles:
     - Referee
@@ -442,15 +504,18 @@
   - event: Rumble in the Roads FIRST Robotics Competition Off-Season Competition
     event_end: 11/2/2019
     event_start: 11/2/2019
+    num_days: 1
     program: FRC
     roles:
     - Referee
     season: 2019
+  num_days: 18
   season: 2019
 - events:
   - event: NC FTC Kickoff
     event_end: 9/7/2019
     event_start: 9/7/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -458,6 +523,7 @@
   - event: FIRST Chesapeake FTC Workshop
     event_end: 9/21/2019
     event_start: 9/21/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -465,6 +531,7 @@
   - event: Oakton Qualifying Tournament
     event_end: 11/24/2019
     event_start: 11/24/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -472,6 +539,7 @@
   - event: Richmond Qualifying Tournament
     event_end: 12/7/2019
     event_start: 12/7/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -479,6 +547,7 @@
   - event: Newport News Qualifying Tournament
     event_end: 12/14/2019
     event_start: 12/14/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -486,6 +555,7 @@
   - event: Centreville Qualifier
     event_end: 12/15/2019
     event_start: 12/15/2019
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -493,6 +563,7 @@
   - event: Charlottesville Qualifying Tournament
     event_end: 1/4/2020
     event_start: 1/4/2020
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -500,6 +571,7 @@
   - event: Salem Qualifying Tournament
     event_end: 1/11/2020
     event_start: 1/11/2020
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -507,6 +579,7 @@
   - event: Cardinal Gibbons High School QT
     event_end: 1/18/2020
     event_start: 1/18/2020
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -514,6 +587,7 @@
   - event: Virginia State Championship sponsored by Capital One
     event_end: 2/22/2020
     event_start: 2/22/2020
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -521,6 +595,7 @@
   - event: North Carolina FIRST Tech Challenge State Championship Tournament
     event_end: 2/29/2020
     event_start: 2/29/2020
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -528,15 +603,18 @@
   - event: CHS District Richmond VA Event sponsored by Dominion Energy
     event_end: 3/8/2020
     event_start: 3/6/2020
+    num_days: 2
     program: FRC
     roles:
     - Referee
     season: 2020
+  num_days: 13
   season: 2020
 - events:
   - event: CHSy Champs
     event_end: 7/24/2021
     event_start: 7/24/2021
+    num_days: 1
     program: FRC
     roles:
     - Referee
@@ -544,15 +622,18 @@
   - event: LOKI
     event_end: 8/14/2021
     event_start: 8/14/2021
+    num_days: 1
     program: FTC
     roles:
     - Referee
     season: 2021
+  num_days: 2
   season: 2021
 - events:
   - event: NC FTC Kickoff
-    event_end: 9/7/2021
+    event_end: 9/18/2021
     event_start: 9/18/2021
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -560,6 +641,7 @@
   - event: VA Glen Allen Qualifier 1
     event_end: 12/12/2021
     event_start: 12/11/2021
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -567,6 +649,7 @@
   - event: NC Scrimmage
     event_end: 12/18/2021
     event_start: 12/18/2021
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -574,6 +657,7 @@
   - event: MD Middle River Qualifier 1
     event_end: 1/30/2022
     event_start: 1/29/2022
+    num_days: 1
     program: FTC
     roles:
     - Scorekeeper
@@ -581,6 +665,7 @@
   - event: VA Norfolk Qualifier 1
     event_end: 2/6/2022
     event_start: 2/5/2022
+    num_days: 1
     program: FTC
     roles:
     - Scorekeeper
@@ -588,6 +673,7 @@
   - event: 'CHS District Greater Richmond Series #1'
     event_end: 3/6/2022
     event_start: 3/5/2022
+    num_days: 1
     program: FRC
     roles:
     - Referee
@@ -595,6 +681,7 @@
   - event: 'CHS District Greater Richmond Series #2'
     event_end: 3/20/2022
     event_start: 3/19/2022
+    num_days: 1
     program: FRC
     roles:
     - Head Referee
@@ -602,6 +689,7 @@
   - event: FNC District Guilford County Event
     event_end: 3/27/2022
     event_start: 3/25/2022
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -609,6 +697,7 @@
   - event: FIRST Championship - FIRST Robotics Competition
     event_end: 4/23/2022
     event_start: 4/20/2022
+    num_days: 3
     program: FRC
     roles:
     - Referee
@@ -616,6 +705,7 @@
   - event: Blue Ridge Brawl
     event_end: 10/8/2022
     event_start: 10/8/2022
+    num_days: 1
     program: FRC
     roles:
     - Head Referee
@@ -623,15 +713,18 @@
   - event: CHSy Champs
     event_end: 10/22/2022
     event_start: 10/22/2022
+    num_days: 1
     program: FRC
     roles:
     - Referee
     season: 2022
+  num_days: 14
   season: 2022
 - events:
   - event: NC FTC Kickoff
     event_end: 9/10/2022
     event_start: 9/10/2022
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -639,6 +732,7 @@
   - event: CHS-VA Christiansburg Qualifier
     event_end: 12/3/2022
     event_start: 12/3/2022
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -646,6 +740,7 @@
   - event: CHS-VA Mechanicsville Qualifier 2
     event_end: 12/4/2022
     event_start: 12/4/2022
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -653,6 +748,7 @@
   - event: CHS-VA Orange Qualifier
     event_end: 12/10/2022
     event_start: 12/10/2022
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -660,6 +756,7 @@
   - event: CHS-VA Glen Allen Qualifier
     event_end: 12/11/2022
     event_start: 12/11/2022
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -667,6 +764,7 @@
   - event: CHS-VA Harrisonburg Qualifier 1
     event_end: 1/21/2023
     event_start: 1/21/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -674,6 +772,7 @@
   - event: CHS-VA Harrisonburg Qualifier 2
     event_end: 1/22/2023
     event_start: 1/22/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -681,6 +780,7 @@
   - event: NC FTC Western MS
     event_end: 1/28/2023
     event_start: 1/28/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -688,6 +788,7 @@
   - event: CHS-MD Potomac Qualifier
     event_end: 2/5/2023
     event_start: 2/5/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -695,6 +796,7 @@
   - event: Chesapeake FTC Championship
     event_end: 2/11/2023
     event_start: 2/11/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -702,6 +804,7 @@
   - event: North Carolina FTC State Championship
     event_end: 2/18/2023
     event_start: 2/18/2023
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -709,6 +812,7 @@
   - event: CHS District Blacksburg VA Event
     event_end: 3/5/2023
     event_start: 3/3/2023
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -716,6 +820,7 @@
   - event: CHS District Portsmouth VA Event
     event_end: 3/19/2023
     event_start: 3/17/2023
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -723,6 +828,7 @@
   - event: CHS District Glen Allen VA Event
     event_end: 3/26/2023
     event_start: 3/24/2023
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -730,6 +836,7 @@
   - event: FIRST North Carolina District State Championship
     event_end: 4/2/2023
     event_start: 3/31/2023
+    num_days: 2
     program: FRC
     roles:
     - Referee
@@ -737,15 +844,18 @@
   - event: LOKI
     event_end: 7/22/2023
     event_start: 7/22/2023
+    num_days: 1
     program: FTC
     roles:
     - Referee
     season: 2023
+  num_days: 20
   season: 2023
 - events:
   - event: CHS-VA SWVA Kick Off
     event_end: 9/9/2023
     event_start: 9/9/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -753,6 +863,7 @@
   - event: CHS-VA FTC Pre-season SWVA Scrimmage
     event_end: 10/28/2023
     event_start: 10/28/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -760,6 +871,7 @@
   - event: CHS-VA Christiansburg Qualifier
     event_end: 12/2/2023
     event_start: 12/2/2023
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -767,6 +879,7 @@
   - event: CHS-VA Charlottesville Qualifier Stage Right
     event_end: 1/14/2024
     event_start: 1/14/2024
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -774,6 +887,7 @@
   - event: CHS-VA Norfolk Academy Qualifier
     event_end: 1/27/2024
     event_start: 1/27/2024
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -781,6 +895,7 @@
   - event: Chesapeake FTC Championship
     event_end: 2/3/2024
     event_start: 2/3/2024
+    num_days: 1
     program: FTC
     roles:
     - Referee
@@ -788,6 +903,7 @@
   - event: CHS District Blacksburg VA Event
     event_end: 3/3/2024
     event_start: 3/1/2024
+    num_days: 2
     program: FRC
     roles:
     - Head Referee
@@ -795,8 +911,10 @@
   - event: LOKI
     event_end: 7/27/2024
     event_start: 7/27/2024
+    num_days: 1
     program: FTC
     roles:
     - Referee
     season: 2024
+  num_days: 9
   season: 2024

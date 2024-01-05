@@ -112,17 +112,19 @@ Years given are for the spring semester of that academic year.
 
 {% assign total_event_count = 0 %}
 {% assign number_of_seasons = 0 %}
+{% assign total_day_count = 0 %}
 {% for season in site.data.first %}
 {% assign number_of_seasons = number_of_seasons | plus: 1 %}
 {% assign total_event_count = total_event_count | plus: season.events.size %}
+{% assign total_day_count = total_day_count | plus: season.num_days %}
 {% endfor %}
-### Volunteering at *FIRST* Events ({{ total_event_count }} Events across {{ number_of_seasons }} Seasons)
-I volunteer at as many *FIRST* events as I can each season. I try to keep this list updated with the events I will volunteer at in the future, so feel free to stop by.
+### Volunteering at *FIRST* Events ({{ total_event_count }} Events spanning {{ total_day_count }} Days across {{ number_of_seasons }} Seasons)
+I volunteer at as many *FIRST* events as I can each season. I try to keep this list updated with the events I will volunteer at in the future, so come by and say hi.
 
 {% for season in site.data.first %}
   {% assign season_start_year = season.season | minus: 1 %}
   <details>
-  <summary>{{ season_start_year }} - {{ season.season }} ({{ season.events.size }} Events)</summary>
+  <summary>{{ season_start_year }}-{{ season.season }} Season ({{ season.events.size }} Events; {{season.num_days}} Days)</summary>
   <table>
   <tr><th>Event Date</th><th style="text-align: center">Program</th><th>Event</th><th>Role(s)</th></tr>
   {% for event in season.events %}
