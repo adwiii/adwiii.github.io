@@ -20,7 +20,8 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 * B.S. in Computer Engineering, North Carolina State University, 2019
   * Minor in Mathematics
   * Graduated Valedictorian and Summa Cum Laude
-  * University Honors Program, Computer Science Honors Program, Phi Kappa Phi, Eta Kappa Nu (IEEE-HKN)
+  * University Honors Program, Computer Science Honors Program
+  * Phi Kappa Phi, Eta Kappa Nu (IEEE-HKN)
 
 ---
 
@@ -80,7 +81,7 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 * NC State Computer Science Dr. Donald L. Bitzer Creativity Award (2019)
 
 ## Extracurricular
-* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) [Global Volunteer of the Year](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html) (2021)
+* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) Global Volunteer of the Year<sup>[1](https://www.firstinspires.org/sites/default/files/uploads/annual-report/fy2021-annual-impact-report.pdf#page=34), [2](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html)</sup> (2021)
 * *FIRST* North Carolina [Guilford County District Event](https://youtu.be/UJb6Lta9QqI?si=BZfyL70L6zd9tMVL&t=60) Volunteer Award (2019)
 * Eagle Scout (2013)
 
