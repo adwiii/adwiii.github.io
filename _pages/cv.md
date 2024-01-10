@@ -78,6 +78,7 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 # Awards
 ## Academic
 * University of Virginia All-University Graduate Teaching Award (2022-2023)
+* University of Virginia School of Engineering and Applied Science Dean's Scholar Fellowship (2019-2024)
 * NC State Computer Science Dr. Donald L. Bitzer Creativity Award (2019)
 
 ## Extracurricular
