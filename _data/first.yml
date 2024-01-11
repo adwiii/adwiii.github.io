@@ -884,6 +884,22 @@
     roles:
     - Head Referee
     season: 2024
+  - event: CHS-VA Harrisonburg 1 Qualifier Stage Left
+    event_end: 1/20/2024
+    event_start: 1/20/2024
+    num_days: 1
+    program: FTC
+    roles:
+    - Referee
+    season: 2024
+  - event: CHS-VA Harrisonburg 2 Qualifier Stage Left
+    event_end: 1/21/2024
+    event_start: 1/21/2024
+    num_days: 1
+    program: FTC
+    roles:
+    - Referee
+    season: 2024
   - event: CHS-VA Norfolk Academy Qualifier
     event_end: 1/27/2024
     event_start: 1/27/2024
@@ -895,6 +911,14 @@
   - event: Chesapeake FTC Championship
     event_end: 2/3/2024
     event_start: 2/3/2024
+    num_days: 1
+    program: FTC
+    roles:
+    - Referee
+    season: 2024
+  - event: NC FTC Championship
+    event_end: 2/24/2024
+    event_start: 2/24/2024
     num_days: 1
     program: FTC
     roles:
@@ -916,5 +940,5 @@
     roles:
     - Referee
     season: 2024
-  num_days: 9
+  num_days: 12
   season: 2024
