@@ -89,6 +89,9 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 ---
 
 # Service
+## Mentorship
+* [Garrett Christian](https://www.linkedin.com/in/garrett-christian/) - Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
+
 ## Academic
 * ICRA'22 Reviewer
 
