@@ -25,6 +25,7 @@
 
 import pandas as pd
 import numpy as np
+import os
 
 # ## Import TSV
 # 
@@ -34,7 +35,10 @@ import numpy as np
 
 # In[3]:
 
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+dir_path = os.path.dirname(os.path.realpath(__file__))
+dir_path_parent = os.path.dirname(dir_path)
+tsv_file = f'{dir_path}/publications.tsv'
+publications = pd.read_csv(tsv_file, sep="\t", header=0)
 publications
 
 
@@ -99,6 +103,13 @@ for row, item in publications.iterrows():
     gh = (item.github if type(item.github) == str else '')
     if len(gh) > 0:
         md += "\ngithub: '" + gh + "'"
+
+    short_venue = (item.short_venue if type(item.short_venue) == str else '')
+    if len(short_venue) > 0:
+        md += "\nshort_venue: \"" + short_venue + "\""
+        series = short_venue[:short_venue.find('\'')]
+        md += f"\nseries: {series}"
+        md += f"\nshort_year: \"{short_venue[len(series):]}\""
     
     md += "\n---"
     
@@ -120,7 +131,7 @@ for row, item in publications.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../_publications/" + md_filename, 'w') as f:
+    with open(f"{dir_path_parent}/_publications/" + md_filename, 'w') as f:
         f.write(md)
 
 

@@ -45,6 +45,27 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 ---
 
 # [Publications](/publications)
+
+{% assign venues = '' | split: '' %}
+{% for pub in site.publications reversed %}
+{% assign venueName = pub.series | split: '_' %}
+{% assign venues = venues | concat: venueName %}
+{% endfor %}
+{% assign venues = venues | uniq %}
+I have been fortunate to publish in the following venues:
+<ul class="no-bullets">
+{% for venue in venues %}
+
+  <li>{{venue}}:
+  {% for pub in site.publications %}
+    {% if pub.series == venue %}
+    <a href="{{pub.permalink}}">{{pub.short_year}}</a>
+    {% endif %}
+  {% endfor %}
+  </li>
+{% endfor %}
+</ul>
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

@@ -919,6 +919,7 @@
     roles:
     - Head Referee
     - Lead Robot Inspector
+    - Scorekeeper
     season: 2024
   - event: Chesapeake FTC Championship
     event_end: 2/3/2024

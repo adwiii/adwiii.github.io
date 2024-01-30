@@ -10,6 +10,9 @@ citation: 'Trey Woodlief, Sebastian Elbaum, and Kevin Sullivan. 2022. Semantic I
 bibtex: '@inproceedings{woodlief2022semantic,  title={Semantic image fuzzing of AI perception systems},  author={Woodlief, Trey and Elbaum, Sebastian and Sullivan, Kevin},  booktitle={Proceedings of the 44th International Conference on Software Engineering}, pages={1958--1969}, year={2022}}'
 image: '/images/semSensFuzz.png'
 github: 'https://github.com/less-lab-uva/perception_fuzzing'
+short_venue: "ICSE'22"
+series: ICSE
+short_year: "'22"
 ---
 
 <a href='https://github.com/less-lab-uva/perception_fuzzing/blob/main/Semantic%20Image%20Fuzzing%20of%20AI%20Perception%20Systems.pdf'>Download paper here</a>&nbsp;&nbsp;<a href="https://github.com/less-lab-uva/perception_fuzzing"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
