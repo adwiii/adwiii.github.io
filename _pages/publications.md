@@ -11,7 +11,7 @@ author_profile: true
   {% assign venues = venues | concat: venueName %}
 {% endfor %}
 {% assign venues = venues | uniq %}
-I have been fortunate to publish in the following venues:
+My work has appeared in the following venues:
 <ul>
 {% for venue in venues %}
 

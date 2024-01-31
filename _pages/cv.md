@@ -52,7 +52,7 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 {% assign venues = venues | concat: venueName %}
 {% endfor %}
 {% assign venues = venues | uniq %}
-I have been fortunate to publish in the following venues:
+My work has appeared in the following venues:
 <ul class="no-bullets">
 {% for venue in venues %}
 
