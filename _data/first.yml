@@ -929,6 +929,14 @@
     roles:
     - Head Referee
     season: 2024
+  - event: NC FTC Dean's List Interview Only 2023-2024
+    event_end: 2/6/2024
+    event_start: 2/6/2024
+    num_days: 1
+    program: FTC
+    roles:
+    - Dean's List Interviewer
+    season: 2024
   - event: NC FTC Championship
     event_end: 2/24/2024
     event_start: 2/24/2024
@@ -945,5 +953,5 @@
     roles:
     - Head Referee
     season: 2024
-  num_days: 12
+  num_days: 13
   season: 2024
