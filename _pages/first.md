@@ -9,8 +9,9 @@ I am an active volunteer for [*FIRST*](https://www.firstinspires.org/), a non-pr
 
 ### Positions Held
 Years given are for the spring semester of that academic year.
-* *FIRST* Chesapeake Alumni Ambassador 2020, 2022, 2023, 2024
-* [FTCLive](https://github.com/FIRST-Tech-Challenge/scorekeeper) Scoring System Co-Creator and Developer 2019-Present
+* *FIRST* Chesapeake *FIRST* Tech Challenge Volunteer Advisory Committee Member (2024-Present) 
+* *FIRST* Chesapeake Alumni Ambassador (2020, 2022, 2023, 2024)
+* [FTCLive](https://github.com/FIRST-Tech-Challenge/scorekeeper) Scoring System Co-Creator and Developer (2019-Present)
 * North Carolina FTC Planning Committee Member 2018-Present
 * FRC Head Referee (2022-Present) and Referee (2016-Present)
 * FTC Head Referee (2016-Present) and Referee (2016-Present)

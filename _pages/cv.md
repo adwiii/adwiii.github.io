@@ -14,14 +14,20 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 ---
 
 # Education
-* Master of Computer Science (MCS), University of Virginia, 2022
-* B.S. in Computer Science, North Carolina State University, 2019
-* B.S. in Electrical Engineering, North Carolina State University, 2019
-* B.S. in Computer Engineering, North Carolina State University, 2019
-  * Minor in Mathematics
-  * Graduated Valedictorian and Summa Cum Laude
-  * University Honors Program, Computer Science Honors Program
-  * Phi Kappa Phi, Eta Kappa Nu (IEEE-HKN)
+## University of Virginia 2019-2025 (Expected)
+* Ph.D. Computer Science
+* Co-advised Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
+
+## University of Virginia 2019-2022
+* M. Computer Science (MCS)
+
+## North Carolina State University 2015-2019
+* B.S. in Computer Science
+* B.S. in Electrical Engineering
+* B.S. in Computer Engineering
+* Minor in Mathematics
+
+*Honors*: Graduated Valedictorian and Summa Cum Laude
 
 ---
 
@@ -98,9 +104,23 @@ My work has appeared in the following venues:
 
 # Awards
 ## Academic
-* University of Virginia All-University Graduate Teaching Award (2022-2023)
-* University of Virginia School of Engineering and Applied Science Dean's Scholar Fellowship (2019-2024)
-* NC State Computer Science Dr. Donald L. Bitzer Creativity Award (2019)
+* All-University Graduate Teaching Award (2022-2023)
+  * University of Virginia
+* Most Promising Research Award (2022)
+  * University of Virginia Computer Science Research Symposium
+* Best Presentation Award (2020)
+  * University of Virginia Computer Science Research Symposium
+* Dean's Scholar Fellowship (2019-2024)
+  * University of Virginia School of Engineering and Applied Science
+* Dr. Donald L. Bitzer Creativity Award (2019)
+  * North Carolina State University Department of Computer Science
+* University Honors Program (2019)
+  * North Carolina State University
+* Computer Science Honors Program (2019)
+  * North Carolina State University Department of Computer Science
+* Phi Kappa Phi Honor Society (2018)
+* Tau Beta Pi Engineering Honor Society (2017)
+* IEEE-Eta Kappa Nu Honor Society (IEEE-HKN) (2016)
 
 ## Extracurricular
 * [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) Global Volunteer of the Year<sup>[1](https://www.firstinspires.org/sites/default/files/uploads/annual-report/fy2021-annual-impact-report.pdf#page=34), [2](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html)</sup> (2021)
@@ -114,6 +134,7 @@ My work has appeared in the following venues:
 * [Garrett Christian](https://www.linkedin.com/in/garrett-christian/) - Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
 
 ## Academic
+* 2024 International Journal of Robotics Research (IJRR) Reviewer
 * ICRA'22 Reviewer
 
 [//]: # (<details>)

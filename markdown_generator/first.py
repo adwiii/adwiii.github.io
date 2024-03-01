@@ -36,7 +36,8 @@ class EventVolunteering:
             'event_start': self.event_start,
             'event_end': self.event_end,
             'roles': self.roles,
-            'num_days': self.num_days
+            'num_days': self.num_days,
+            'in_future': self.event_start_time > datetime.now()
         }
 
     def merge(self, other):
@@ -59,13 +60,49 @@ def main():
     event_list = sorted(list(event_map.values()), key=lambda x: x.event_start_time)
     for event in event_list:
         season_map[event.season].append(event.as_dict())
+    # total_days_happened = sum([event.num_days for event in event_list if not event])
     flattened_seasons = [{
         'season': season,
         'events': events,
-        'num_days': sum([event['num_days'] for event in events])
+        'num_events_happened': len([event for event in events if not event['in_future']]),
+        'num_days': sum([event['num_days'] for event in events if not event['in_future']])
     } for season, events in season_map.items()]
+    total_days_happened = sum([season['num_days'] for season in flattened_seasons])
+    num_events_happened = sum([season['num_events_happened'] for season in flattened_seasons])
     with open(f'{dir_path_parent}/_data/first.yml', 'w') as f:
         yaml.dump(flattened_seasons, f)
+    tex_string = f'\subsubsection*{{Volunteering at \\textit{{FIRST}} Events -- {num_events_happened} Events spanning {total_days_happened} Days across {len(flattened_seasons)} Seasons}}\n'
+    # tex_string +=  ('I volunteer at as many \\textit{FIRST} events as I can each season. Events are listed under each season based on what game was played at the event;'
+    #                 ' accordingly, summer and fall off season events show in the previous season.\\\\ \n')
+    tex_string += 'I volunteer at as many \\textit{FIRST} events as I can each season. Below is a summary of my event involvement each season.\n'
+    tex_string += 'You can find a full list of events, including future events, on my website: \\url{https://treywoodlief.com/first/}.\\\\ \n'
+    prog_map = {
+        'FRC': '\\FRC',
+        'FTC': '\\FTC',
+        'FLL-C': '\\FLLC',
+    }
+    for season in reversed(flattened_seasons):
+        # tex_string += f'\\subsubsection*{{{season["season"] - 1} -- {season["season"]} ({len(season["events"])} Events; {season["num_days"]} Days) }}\n'
+        tex_string += f'\\years{{{season["season"] - 1} -- {season["season"]}}} \\textbf{{Volunteered at {season["num_events_happened"]} Events over {season["num_days"]} Days}}\\\\ \n'
+        # tex_string += '\\begin{longtable}{p{0.13\\textwidth}p{0.08\\textwidth}p{0.52\\textwidth}p{0.15\\textwidth}}\n'
+        # tex_string += '\\textbf{Dates} & \\textbf{Program} & \\textbf{Event} & \\textbf{Role(s)} \\\\ \n'
+        roles_held = {}
+        for event in season['events']:
+            if event['in_future']:
+                continue
+            # TODO aggregate roles by program
+        # for event in season['events']:
+        #     if event['event_start'] == event['event_end']:
+        #         date_string = event['event_start'][:event['event_start'].rfind('/')]
+        #     else:
+        #         date_string = event['event_start'][:event['event_start'].rfind('/')] + '--' + event["event_end"][:event['event_end'].rfind('/')]
+        #     # date_string = event['event_start'] + ('' if event['event_start'] == event['event_end'] else f'-- {event["event_end"]}')
+        #     role_string = ', '.join(event['roles'])
+        #     event_name = event["event"].replace("&", "\\&")
+        #     tex_string += f'{date_string} & {prog_map[event["program"]]} & {event_name} & {role_string} \\\\ \n'
+        # tex_string += '\\end{longtable}\n\\FloatBarrier\n'
+    with open(f'{dir_path}/first.tex', 'w') as f:
+        f.write(tex_string)
 
 if __name__ == '__main__':
     main()

@@ -69,6 +69,7 @@ def format_bibtex(bibtex):
 # In[5]:
 
 import os
+total_bibtex = ''
 for row, item in publications.iterrows():
     
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
@@ -130,8 +131,13 @@ for row, item in publications.iterrows():
 #     md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
-       
+
+    total_bibtex += item.bibtex + '\n'
+
     with open(f"{dir_path_parent}/_publications/" + md_filename, 'w') as f:
         f.write(md)
+
+with open(f"{dir_path}/publications.bib", "w") as f:
+    f.write(total_bibtex)
 
 
