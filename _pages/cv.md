@@ -104,6 +104,8 @@ My work has appeared in the following venues:
 
 # Awards
 ## Academic
+* Outstanding Graduate Research Award (2024)
+  * University of Virginia Department of Computer Science
 * All-University Graduate Teaching Award (2022-2023)
   * University of Virginia
 * Most Promising Research Award (2022)
