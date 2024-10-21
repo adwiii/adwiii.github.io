@@ -104,6 +104,8 @@ My work has appeared in the following venues:
 
 # Awards
 ## Academic
+* Copenhaver Charitable Trust Bicentennial Fellowship (2024-2025)
+  * University of Virginia School of Engineering and Applied Science
 * Outstanding Graduate Research Award (2024)
   * University of Virginia Department of Computer Science
 * All-University Graduate Teaching Award (2022-2023)
@@ -133,18 +135,18 @@ My work has appeared in the following venues:
 
 # Service
 ## Mentorship
-* [Garrett Christian](https://www.linkedin.com/in/garrett-christian/) - Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
+* Johann Mission, Mathushan Mathyvannan, Yili Bai, Zachariah Risheq
+  * Supported undergrad research on benchmarking autonomous systems; manuscript under submission
+* [Garrett Christian](https://www.linkedin.com/in/garrett-christian/)
+  * Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
 
 ## Academic
-* 2024 International Journal of Robotics Research (IJRR) Reviewer
-* ICRA'22 Reviewer
-
-[//]: # (<details>)
-[//]: # (<summary>Expand</summary>)
-[//]: # (<ul>)
-[//]: # (<li>ICRA'22 Reviewer</li>)
-[//]: # (</ul>)
-[//]: # (</details>)
+* **Program Committee** 2025 ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
+* **Reviewer** 2025 International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
+* **Reviewer** 2024 IEEE Transactions on Software Engineering (TSE)
+* **Reviewer** 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)
+* **Reviewer** 2024 International Journal of Robotics Research (IJRR)
+* **Reviewer** 2022 IEEE International Conference on Robotics and Automation (ICRA'22)
 
 ## *FIRST* Robotics
 
