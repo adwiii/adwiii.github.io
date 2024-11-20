@@ -969,7 +969,6 @@
     program: FTC
     roles:
     - Head Referee
-    - Head Referee
     season: 2024
   - event: CHS-VA FTC Pre-season SWVA Scrimmage
     event_end: 10/28/2023
@@ -1079,6 +1078,15 @@
   num_events_happened: 12
   season: 2024
 - events:
+  - event: CHS-VA SWVA Kick Off
+    event_end: 9/7/2024
+    event_start: 9/7/2024
+    in_future: false
+    num_days: 1
+    program: FTC
+    roles:
+    - Head Referee
+    season: 2025
   - event: Charlottesville VA Qualifier
     event_end: 11/23/2024
     event_start: 11/23/2024
@@ -1152,6 +1160,6 @@
     roles:
     - Head Referee
     season: 2025
-  num_days: 0
-  num_events_happened: 0
+  num_days: 1
+  num_events_happened: 1
   season: 2025
