@@ -1090,7 +1090,7 @@
   - event: Charlottesville VA Qualifier
     event_end: 11/23/2024
     event_start: 11/23/2024
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
@@ -1099,7 +1099,7 @@
   - event: 'DCI #2 Qualifier'
     event_end: 11/24/2024
     event_start: 11/24/2024
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
@@ -1108,7 +1108,7 @@
   - event: Gaithersburg MD Qualifier
     event_end: 12/8/2024
     event_start: 12/8/2024
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
@@ -1117,6 +1117,15 @@
   - event: 'Glen Allen VA #2 Qualifier'
     event_end: 12/15/2024
     event_start: 12/15/2024
+    in_future: true
+    num_days: 1
+    program: FTC
+    roles:
+    - Referee
+    season: 2025
+  - event: Virginia Beach VA Qualifier
+    event_end: 1/12/2025
+    event_start: 1/12/2025
     in_future: true
     num_days: 1
     program: FTC
@@ -1160,6 +1169,6 @@
     roles:
     - Head Referee
     season: 2025
-  num_days: 1
-  num_events_happened: 1
+  num_days: 4
+  num_events_happened: 4
   season: 2025

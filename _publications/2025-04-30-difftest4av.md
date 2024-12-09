@@ -9,6 +9,7 @@ paperurl: '/files/Differential_Testing_ICSE_2025.pdf'
 citation: 'Coming Soon'
 bibtex: 'Coming Soon'
 image: '/images/difftest4av_splash.png'
+journal: false
 short_venue: "ICSE'25"
 series: ICSE
 short_year: "'25"

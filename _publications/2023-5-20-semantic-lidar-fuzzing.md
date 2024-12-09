@@ -10,6 +10,7 @@ citation: 'Garrett Christian, Trey Woodlief, and Sebastian Elbaum. 2023. Generat
 bibtex: '@inproceedings{christian2023generating,title={Generating Realistic and Diverse Tests for LiDAR-Based Perception Systems},author={Christian$^*$, Garrett and Woodlief, Trey and Elbaum, Sebastian},booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},pages={2604--2616},year={2023},organization={IEEE}}'
 image: '/images/semLidarFuzz.png'
 github: 'https://github.com/less-lab-uva/semLidarFuzz'
+journal: false
 short_venue: "ICSE'23"
 series: ICSE
 short_year: "'23"

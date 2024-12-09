@@ -57,10 +57,18 @@ layout: default
 
 
 
-        {% if page.citation %}
-          <p>Recommended citation: {{ page.citation }}</p>
-        {% endif %}
-
+          {% if page.citation %}
+          <p>Recommended citation:
+            {% if page.bibtex %}
+            {% assign lowercasebibtex = {{page.bibtex | downcase}} %}
+            {% if lowercasebibtex != 'coming soon' and lowercasebibtex != 'bibtex coming soon' %}
+            <a onclick="navigator.clipboard.writeText('{{page.bibtex}}');$(this).text('Copy BibTeX (Copied)');setTimeout(() => {$(this).text('Copy BibTeX')}, 5000);return false;" href="javascript:void(0);">Copy BibTeX</a>
+            {% endif %}
+            {% endif %}
+            <br>
+            <span class="citation">{{ page.citation }}</span>
+          </p>
+          {% endif %}
     
         </header>
       {% endunless %}

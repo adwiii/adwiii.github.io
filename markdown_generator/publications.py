@@ -107,10 +107,15 @@ for row, item in publications.iterrows():
 
     short_venue = (item.short_venue if type(item.short_venue) == str else '')
     if len(short_venue) > 0:
-        md += "\nshort_venue: \"" + short_venue + "\""
-        series = short_venue[:short_venue.find('\'')]
-        md += f"\nseries: {series}"
-        md += f"\nshort_year: \"{short_venue[len(series):]}\""
+        if short_venue.lower() == "journal":
+            md += "\njournal: true"
+            md += f"\nyear: {item.pub_date[:item.pub_date.find('-')]}"
+        else:
+            md += "\njournal: false"
+            md += "\nshort_venue: \"" + short_venue + "\""
+            series = short_venue[:short_venue.find('\'')]
+            md += f"\nseries: {series}"
+            md += f"\nshort_year: \"{short_venue[len(series):]}\""
     
     md += "\n---"
     

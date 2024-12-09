@@ -10,6 +10,7 @@ citation: 'Coming Soon'
 bibtex: 'Coming Soon'
 image: '/images/odd-dillmma.png'
 github: 'https://github.com/hildebrandt-carl/ODD_diLLMma_Artifact'
+journal: false
 short_venue: "IROS'24"
 series: IROS
 short_year: "'24"

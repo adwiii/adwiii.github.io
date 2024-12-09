@@ -54,17 +54,31 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 
 {% assign venues = '' | split: '' %}
 {% for pub in site.publications reversed %}
+{% if pub.journal != true %}
 {% assign venueName = pub.series | split: '_' %}
 {% assign venues = venues | concat: venueName %}
+{% endif %}
 {% endfor %}
 {% assign venues = venues | uniq %}
+
+{% assign journals = '' | split: '' %}
+{% for pub in site.publications reversed %}
+{% if pub.journal == true %}
+{% assign venueName = pub.venue | split: 'ZZQXZZ' %}
+{% assign journals = journals | concat: venueName %}
+{% endif %}
+{% endfor %}
+{% assign journals = journals | uniq %}
+
 My work has appeared in the following venues:
-<ul class="no-bullets">
+
+Conferences:
+<ul>
 {% for venue in venues %}
 
   <li>{{venue}}:
   {% for pub in site.publications %}
-    {% if pub.series == venue %}
+    {% if pub.series == venue and pub.journal != true %}
     <a href="{{pub.permalink}}">{{pub.short_year}}</a>
     {% endif %}
   {% endfor %}
@@ -72,6 +86,21 @@ My work has appeared in the following venues:
 {% endfor %}
 </ul>
 
+
+Journals:
+<ul>
+{% for journal in journals %}
+  <li>{{journal}}:
+  {% for pub in site.publications %}
+    {% if pub.venue == journal and pub.journal == true %}
+    <a href="{{pub.permalink}}">{{pub.year}}</a>
+    {% endif %}
+  {% endfor %}
+  </li>
+{% endfor %}
+</ul>
+
+Full publication list:
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
