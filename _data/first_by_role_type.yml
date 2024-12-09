@@ -1,0 +1,42 @@
+- program: All
+  role: Referee
+  count: 119
+- program: All
+  role: Setup
+  count: 14
+- program: All
+  role: Inspector
+  count: 7
+- program: All
+  role: Scorekeeper
+  count: 4
+- program: All
+  role: Technical Staff
+  count: 1
+- program: All
+  role: Dean's List Interviewer
+  count: 1
+- program: FRC
+  role: Referee
+  count: 38
+- program: FRC
+  role: Setup
+  count: 14
+- program: FTC
+  role: Referee
+  count: 70
+- program: FTC
+  role: Inspector
+  count: 7
+- program: FTC
+  role: Scorekeeper
+  count: 4
+- program: FTC
+  role: Technical Staff
+  count: 1
+- program: FTC
+  role: Dean's List Interviewer
+  count: 1
+- program: FLL-C
+  role: Referee
+  count: 11

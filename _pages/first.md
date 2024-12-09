@@ -51,3 +51,33 @@ I volunteer at as many *FIRST* events as I can each season. I try to keep this l
   </table>
   </details>
 {% endfor %}
+
+<br>
+<details>
+<summary>Breakdown by role</summary>
+<table>
+<tr><th style="text-align: center">Program</th><th>Role</th><th>Quantity</th></tr>
+{% for item in site.data.first_by_role %}
+    <tr>
+        <td style="text-align: center"><span class="program-pill {{ item.program }}"> {{ item.program }} </span>
+        </td>
+        <td>{{ item.role }}</td>
+        <td>{{ item.count }}</td>
+    </tr>
+{% endfor %}
+</table>
+</details>
+<details>
+<summary>Breakdown by type</summary>
+<table>
+<tr><th style="text-align: center">Program</th><th>Role</th><th>Quantity</th></tr>
+{% for item in site.data.first_by_role_type %}
+    <tr>
+        <td style="text-align: center"><span class="program-pill {{ item.program }}"> {{ item.program }} </span>
+        </td>
+        <td>{{ item.role }}</td>
+        <td>{{ item.count }}</td>
+    </tr>
+{% endfor %}
+</table>
+</details>

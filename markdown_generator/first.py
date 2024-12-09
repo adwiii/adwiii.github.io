@@ -42,7 +42,23 @@ class EventVolunteering:
 
     def merge(self, other):
         self.roles.extend(other.roles)
+        if ('Head Referee' in self.roles) and ('Referee' in self.roles):
+            self.roles.remove('Referee')
 
+JOB_TYPES = {
+    'Head Referee': 'Referee',
+    'Referee': 'Referee',
+    'Robot Inspector': 'Inspector',
+    'Field Inspector': 'Inspector',
+    'Lead Robot Inspector': 'Inspector',
+    'Lead Field Inspector': 'Inspector',
+    'Lead Scorekeeper': 'Scorekeeper',
+    'Scorekeeper': 'Scorekeeper',
+    "Dean's List Interviewer": "Dean's List Interviewer",
+    'Field Assembly': 'Setup',
+    'Field Disassembly': 'Setup',
+    'Scoring System Development': 'Technical Staff'
+}
 
 def main():
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -71,6 +87,41 @@ def main():
     num_events_happened = sum([season['num_events_happened'] for season in flattened_seasons])
     with open(f'{dir_path_parent}/_data/first.yml', 'w') as f:
         yaml.dump(flattened_seasons, f)
+    by_role = {'All': {}, 'FRC': {}, 'FTC': {}, 'FLL-C': {}}
+    for event in event_list:
+        for role in event.roles:
+            if event.program not in by_role:
+                by_role[event.program] = {}
+            if role not in by_role[event.program]:
+                by_role[event.program][role] = 0
+            if role not in by_role['All']:
+                by_role['All'][role] = 0
+            by_role[event.program][role] += 1
+            by_role['All'][role] += 1
+    flattened_by_role = []
+    for program in by_role:
+        for k, v in sorted(by_role[program].items(), key=lambda item: item[1], reverse=True):
+            flattened_by_role.append({'program': program, 'role': k, 'count': v})
+    with open(f'{dir_path_parent}/_data/first_by_role.yml', 'w') as f:
+        yaml.dump(flattened_by_role, f, sort_keys=False)
+        by_role = {'All': {}, 'FRC': {}, 'FTC': {}, 'FLL-C': {}}
+    for event in event_list:
+        for role in event.roles:
+            role = JOB_TYPES[role]
+            if event.program not in by_role:
+                by_role[event.program] = {}
+            if role not in by_role[event.program]:
+                by_role[event.program][role] = 0
+            if role not in by_role['All']:
+                by_role['All'][role] = 0
+            by_role[event.program][role] += 1
+            by_role['All'][role] += 1
+    flattened_by_role = []
+    for program in by_role:
+        for k, v in sorted(by_role[program].items(), key=lambda item: item[1], reverse=True):
+            flattened_by_role.append({'program': program, 'role': k, 'count': v})
+    with open(f'{dir_path_parent}/_data/first_by_role_type.yml', 'w') as f:
+        yaml.dump(flattened_by_role, f, sort_keys=False)
     tex_string = f'\subsubsection*{{Volunteering at \\textit{{FIRST}} Events -- {num_events_happened} Events spanning {total_days_happened} Days across {len(flattened_seasons)} Seasons}}\n'
     # tex_string +=  ('I volunteer at as many \\textit{FIRST} events as I can each season. Events are listed under each season based on what game was played at the event;'
     #                 ' accordingly, summer and fall off season events show in the previous season.\\\\ \n')

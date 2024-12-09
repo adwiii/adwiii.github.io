@@ -192,7 +192,6 @@
     program: FTC
     roles:
     - Head Referee
-    - Referee
     season: 2017
   - event: North Carolina FIRST LEGO League State Championship Tournament (Bracket
       B)
@@ -463,7 +462,6 @@
     roles:
     - Head Referee
     - Robot Inspector
-    - Referee
     - Field Inspector
     season: 2019
   - event: Northern Guilford HS Qualifying Tournament
