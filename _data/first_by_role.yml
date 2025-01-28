@@ -1,6 +1,6 @@
 - program: All
   role: Referee
-  count: 76
+  count: 75
 - program: All
   role: Head Referee
   count: 49
@@ -45,7 +45,7 @@
   count: 6
 - program: FTC
   role: Referee
-  count: 39
+  count: 38
 - program: FTC
   role: Head Referee
   count: 36

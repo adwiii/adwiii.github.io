@@ -1130,19 +1130,10 @@
     roles:
     - Head Referee
     season: 2025
-  - event: 'Harrisonburg VA #2 Qualifier'
-    event_end: 1/19/2025
-    event_start: 1/19/2025
-    in_future: true
-    num_days: 1
-    program: FTC
-    roles:
-    - Referee
-    season: 2025
   - event: Moorefield WV Qualifier
     event_end: 1/25/2025
     event_start: 1/25/2025
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
@@ -1152,13 +1143,13 @@
   - event: Bassett VA Qualifier
     event_end: 1/26/2025
     event_start: 1/26/2025
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
     - Head Referee
     season: 2025
-  - event: Southern Guilford High School-Saturday
+  - event: Pinnacle Classical Academy
     event_end: 2/1/2025
     event_start: 2/1/2025
     in_future: true
@@ -1221,6 +1212,6 @@
     roles:
     - Head Referee
     season: 2025
-  num_days: 6
-  num_events_happened: 6
+  num_days: 8
+  num_events_happened: 8
   season: 2025
