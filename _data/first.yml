@@ -1130,7 +1130,7 @@
     roles:
     - Head Referee
     season: 2025
-  - event: Moorefield WV Qualifier
+  - event: Moorefield WV 1 Qualifier
     event_end: 1/25/2025
     event_start: 1/25/2025
     in_future: false
@@ -1152,38 +1152,41 @@
   - event: Pinnacle Classical Academy
     event_end: 2/1/2025
     event_start: 2/1/2025
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
     - Referee
+    - Lead Robot Inspector
     season: 2025
   - event: Southern Guilford High School-Sunday
     event_end: 2/2/2025
     event_start: 2/2/2025
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
     - Referee
+    - Robot Inspector
     season: 2025
-  - event: Chesapeake Championship
+  - event: Chesapeake Championship (matches canceled due to snow)
     event_end: 2/8/2025
     event_start: 2/8/2025
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
-    - Head Referee
+    - Field Disassembly
     season: 2025
   - event: North Carolina Championship
     event_end: 2/16/2025
     event_start: 2/16/2025
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
     - Referee
+    - Robot Inspector
     season: 2025
   - event: CHS District Glen Allen VA Event presented by Dominion Energy
     event_end: 3/2/2025
@@ -1212,6 +1215,6 @@
     roles:
     - Head Referee
     season: 2025
-  num_days: 8
-  num_events_happened: 8
+  num_days: 12
+  num_events_happened: 12
   season: 2025
