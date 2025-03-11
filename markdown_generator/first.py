@@ -57,7 +57,8 @@ JOB_TYPES = {
     "Dean's List Interviewer": "Dean's List Interviewer",
     'Field Assembly': 'Setup',
     'Field Disassembly': 'Setup',
-    'Scoring System Development': 'Technical Staff'
+    'Scoring System Development': 'Technical Staff',
+    'Official Scorer': 'Field Staff'
 }
 
 def main():

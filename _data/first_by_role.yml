@@ -1,6 +1,6 @@
 - program: All
   role: Referee
-  count: 75
+  count: 74
 - program: All
   role: Head Referee
   count: 48
@@ -31,9 +31,12 @@
 - program: All
   role: Lead Scorekeeper
   count: 1
+- program: All
+  role: Official Scorer
+  count: 1
 - program: FRC
   role: Referee
-  count: 32
+  count: 31
 - program: FRC
   role: Field Assembly
   count: 8
@@ -43,6 +46,9 @@
 - program: FRC
   role: Field Disassembly
   count: 6
+- program: FRC
+  role: Official Scorer
+  count: 1
 - program: FTC
   role: Referee
   count: 38
