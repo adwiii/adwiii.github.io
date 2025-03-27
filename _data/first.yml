@@ -1200,7 +1200,7 @@
   - event: CHS District Bethesda MD Event presented by Capital One
     event_end: 3/16/2025
     event_start: 3/14/2025
-    in_future: true
+    in_future: false
     num_days: 2
     program: FRC
     roles:
@@ -1215,6 +1215,6 @@
     roles:
     - Head Referee
     season: 2025
-  num_days: 13
-  num_events_happened: 13
+  num_days: 15
+  num_events_happened: 14
   season: 2025
