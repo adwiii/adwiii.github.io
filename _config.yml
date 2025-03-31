@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Trey Woodlief"
 title_separator          : "-"
 name                     : &name "Trey Woodlief"
-description              : &description "PhD Candidate Computer Science University of Virginia"
+description              : &description "Assistant Professor of Computer Science, William & Mary"
 url                      : https://treywoodlief.com # the base hostname & protocol for your site e.g. "https://adwiii.github.io"
 #url                      : http://localhost:4000 # for local dev
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,13 +83,13 @@ analytics:
 author:
   name             : "Trey Woodlief"
   avatar           : "trey.jpg"
-  lab              : "https://less-lab-uva.github.io/"
-  bio              : "Computer Science PhD candidate at UVA. Interested in autonomous system safety."
-  location         : "University of Virginia"
+  lab              :
+  bio              : "Assistant Professor, Computer Science. Interested in autonomous system safety."
+  location         : "William & Mary"
   employer         :
   pubmed           :
   googlescholar    : https://scholar.google.com/citations?user=HKheGDcAAAAJ&hl=en
-  email            : adw8dm@virginia.edu
+  email            : woodlief@wm.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
