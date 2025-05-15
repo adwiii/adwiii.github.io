@@ -10,12 +10,14 @@ citation: 'Garrett Christian, Trey Woodlief, and Sebastian Elbaum. 2023. Generat
 bibtex: '@inproceedings{christian2023generating,title={Generating Realistic and Diverse Tests for LiDAR-Based Perception Systems},author={Christian$^*$, Garrett and Woodlief, Trey and Elbaum, Sebastian},booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},pages={2604--2616},year={2023},organization={IEEE}}'
 image: '/images/semLidarFuzz.png'
 github: 'https://github.com/less-lab-uva/semLidarFuzz'
+paper_type: 'FULL'
 journal: false
 short_venue: "ICSE'23"
 series: ICSE
 short_year: "'23"
 ---
 
-<a href='https://github.com/less-lab-uva/semLidarFuzz/blob/master/Generating%20Realistic%20and%20Diverse%20Tests%20for%20LiDAR-Based%20Perception%20Systems.pdf'>Download paper here</a>&nbsp;&nbsp;<a href="https://github.com/less-lab-uva/semLidarFuzz"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+<a href='https://github.com/less-lab-uva/semLidarFuzz/blob/master/Generating%20Realistic%20and%20Diverse%20Tests%20for%20LiDAR-Based%20Perception%20Systems.pdf'>Download paper here</a>&nbsp;&nbsp;
+<a href="https://github.com/less-lab-uva/semLidarFuzz"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
 
 Autonomous systems rely on a perception component to interpret their  surroundings, and when   misinterpretations occur, they can and have led to serious and fatal system-level failures. Yet, existing methods for testing  perception software remain limited in both their capacity to efficiently generate test data that translates to real-world performance and in their diversity to capture the long tail of rare but safety-critical scenarios. These limitations are particularly evident for  perception systems based on LiDAR sensors, which have emerged as a crucial component in modern autonomous systems due to their ability to provide a 3D scan of the world and operate in all lighting conditions. To address these limitations, we introduce a novel approach for testing LiDAR-based perception systems by leveraging existing real-world data as a basis to generate realistic and diverse test cases through mutations that preserve realism invariants while generating inputs rarely found in existing data sets, and automatically crafting   oracles that identify potentially safety-critical issues in perception performance. We implemented our approach to assess its ability to identify perception failures, generating over 50,000 test inputs for five state-of-the-art LiDAR-based perception systems. We found that it efficiently generated test cases that  yield errors in perception that could result in real consequences if these systems were deployed and does so at a low rate of false positives.

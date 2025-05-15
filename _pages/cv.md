@@ -52,14 +52,23 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 
 # [Publications](/publications)
 
-{% assign venues = '' | split: '' %}
+{% assign full_venues = '' | split: '' %}
 {% for pub in site.publications reversed %}
-{% if pub.journal != true %}
+{% if pub.journal != true and pub.paper_type == 'FULL' %}
 {% assign venueName = pub.series | split: '_' %}
-{% assign venues = venues | concat: venueName %}
+{% assign full_venues = full_venues | concat: venueName %}
 {% endif %}
 {% endfor %}
-{% assign venues = venues | uniq %}
+{% assign full_venues = full_venues | uniq %}
+
+{% assign short_venues = '' | split: '' %}
+{% for pub in site.publications reversed %}
+{% if pub.journal != true and pub.paper_type != 'FULL' %}
+{% assign venueName = pub.series | split: '_' %}
+{% assign short_venues = short_venues | concat: venueName %}
+{% endif %}
+{% endfor %}
+{% assign short_venues = short_venues | uniq %}
 
 {% assign journals = '' | split: '' %}
 {% for pub in site.publications reversed %}
@@ -72,13 +81,13 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 
 My work has appeared in the following venues:
 
-Conferences:
+Full Conference Papers:
 <ul>
-{% for venue in venues %}
+{% for venue in full_venues %}
 
   <li>{{venue}}:
   {% for pub in site.publications %}
-    {% if pub.series == venue and pub.journal != true %}
+    {% if pub.series == venue and pub.journal != true and pub.paper_type == 'FULL' %}
     <a href="{{pub.permalink}}">{{pub.short_year}}</a>
     {% endif %}
   {% endfor %}
@@ -94,6 +103,20 @@ Journals:
   {% for pub in site.publications %}
     {% if pub.venue == journal and pub.journal == true %}
     <a href="{{pub.permalink}}">{{pub.year}}</a>
+    {% endif %}
+  {% endfor %}
+  </li>
+{% endfor %}
+</ul>
+
+Short Papers:
+<ul>
+{% for venue in short_venues %}
+
+  <li>{{venue}}:
+  {% for pub in site.publications %}
+    {% if pub.series == venue and pub.journal != true and pub.venue_type != 'FULL' %}
+    <a href="{{pub.permalink}}">{{pub.short_year}}</a>
     {% endif %}
   {% endfor %}
   </li>

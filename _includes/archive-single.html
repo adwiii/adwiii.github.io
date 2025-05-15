@@ -33,7 +33,6 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-
     {% if post.image %}
     <div class="archive__item-image">
       {% if post.link %}
@@ -83,6 +82,10 @@
           or <a href="{{ post.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
         {% endif %}
       </p>
+    {% else %}
+      {% if post.github %}
+      <p><a href="{{ post.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></p>
+      {% endif %}
     {% endif %}
 
   </article>

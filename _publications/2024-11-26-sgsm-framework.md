@@ -21,10 +21,12 @@ keywords = {Runtime verification, Autonomous vehicles, Safe driving properties, 
 }'
 image: '/images/extending_sgsm.png'
 github: 'https://github.com/less-lab-uva/ExtendingSGSM'
+paper_type: 'FULL'
 journal: true
 year: 2024
 ---
 
-<a href='https://authors.elsevier.com/a/1kEgNc7X5A%7EFU'>Download paper here</a>&nbsp;&nbsp;<a href="https://github.com/less-lab-uva/ExtendingSGSM"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+<a href='https://authors.elsevier.com/a/1kEgNc7X5A%7EFU'>Download paper here</a>&nbsp;&nbsp;
+<a href="https://github.com/less-lab-uva/ExtendingSGSM"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
 
 As autonomous vehicles (AVs) become mainstream, assuring that they operate in accordance with safe driving properties becomes paramount. The ability to specify and monitor driving properties is at the center of such assurance. Yet, the mismatch between the semantic space over which typical driving properties are asserted (e.g., vehicles, pedestrians) and the sensed inputs of AVs (e.g., images, point clouds) poses a significant assurance gap. Related efforts bypass this gap by either assuming that data at the right semantic level is available, or they develop bespoke methods for capturing such data. Our recent Scene Graph Safety Monitoring (SGSM) framework addresses this challenge by extracting scene graphs (SGs) from sensor inputs to capture the entities related to the AV, specifying driving properties using a domain-specific language that enables building propositions over those graphs and composing them through temporal logic, and synthesizing monitors to detect property violations. Through this paper we further explain, formalize, analyze, and extend the SGSM framework, producing SGSM++. This extension is significant in that it incorporates the ability for the framework to encode the semantics of resetting a property violation, enabling the framework to count the quantity and duration of violations. We implemented SGSM++ to monitor for violations of 9 properties of 3 AVs from the CARLA Autonomous Driving Leaderboard, confirming the viability of the framework, which found that the AVs violated 71% of properties during at least one test including almost 1400 unique violations over 30 total test executions, with violations lasting up to 9.25 minutes. Artifact available at https://github.com/less-lab-uva/ExtendingSGSM.

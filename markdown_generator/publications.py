@@ -105,6 +105,8 @@ for row, item in publications.iterrows():
     if len(gh) > 0:
         md += "\ngithub: '" + gh + "'"
 
+    md += f"\npaper_type: '{item.paper_type}'"
+
     short_venue = (item.short_venue if type(item.short_venue) == str else '')
     if len(short_venue) > 0:
         if short_venue.lower() == "journal":
@@ -126,7 +128,7 @@ for row, item in publications.iterrows():
     if len(gh) > 0 and len(str(item.paper_url)) > 5:
         md += ('&nbsp;' * 2)
     if len(gh) > 0:
-        md += '<a href="' + gh + '"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>'
+        md += '\n<a href="' + gh + '"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>'
     if len(gh) > 0 or len(str(item.paper_url)) > 5:
         md += '\n'
     if len(str(item.excerpt)) > 5:
