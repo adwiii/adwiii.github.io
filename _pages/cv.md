@@ -14,7 +14,7 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 ---
 
 # Education
-## University of Virginia 2019-2025 (Expected)
+## University of Virginia 2019-2025
 * Ph.D. Computer Science
 * Co-advised Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
 
@@ -35,7 +35,7 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 * Fall 2025-Present: Assistant Professor, Computer Science
   * [William & Mary](https://www.wm.edu)
 
-* Fall 2019-Present: Research Assistant 
+* Fall 2019-Summer 2025: Research Assistant 
   * [LESS Lab](https://less-lab-uva.github.io/) at University of Virginia
   * Co-advised by Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
 
