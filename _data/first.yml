@@ -1217,13 +1217,13 @@
     season: 2025
   - event: Carolinas Premier Event
     event_end: 7/27/2025
-    event_start: 7/25/2025
+    event_start: 7/26/2025
     in_future: false
-    num_days: 2
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
     season: 2025
-  num_days: 18
+  num_days: 17
   num_events_happened: 16
   season: 2025
