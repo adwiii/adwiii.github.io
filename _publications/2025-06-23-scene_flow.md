@@ -8,7 +8,16 @@ venue: '2025 ACM International Conference on the Foundations of Software Enginee
 paperurl: '/files/fse_scene_flow.pdf'
 citation: 'Trey Woodlief, Felipe Toledo, Matthew Dwyer, and Sebastian Elbaum. 2025. Scene Flow Specifications: Encoding and Monitoring Rich Temporal Safety Properties of Autonomous Systems. Proc. ACM Softw. Eng. 2, FSE,
 Article FSE112 (July 2025), 24 pages. https://doi.org/10.1145/3729382'
-bibtex: 'Coming Soon'
+bibtex: '@article{woodlief2025scene,
+  title={Scene Flow Specifications: Encoding and Monitoring Rich Temporal Safety Properties of Autonomous Systems},
+  author={Woodlief, Trey and Toledo, Felipe and Dwyer, Matthew and Elbaum, Sebastian},
+  journal={Proceedings of the ACM on Software Engineering},
+  volume={2},
+  number={FSE},
+  pages={2524--2547},
+  year={2025},
+  publisher={ACM New York, NY, USA}
+}'
 image: '/images/Scene_Flow.png'
 github: 'https://github.com/less-lab-uva/SceneFlowLang'
 paper_type: 'FULL'

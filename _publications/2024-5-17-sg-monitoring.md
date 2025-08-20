@@ -7,7 +7,7 @@ date: 2024-5-17
 venue: '2024 IEEE International Conference on
 Robotics and Automation'
 paperurl: 'https://github.com/less-lab-uva/ExtendingSGSM/blob/master/ICRA24_Specifying_and_Monitoring_with_Scene_Graphs.pdf'
-citation: 'Toledo, Felipe, Trey Woodlief, Sebastian Elbaum, and Matthew B. Dwyer. &quot;Specifying and Monitoring Safe Driving Properties with Scene Graphs.&quot; In 2024 IEEE International Conference on Robotics and Automation (ICRA), pp. 15577-15584. IEEE, 2024.'
+citation: 'Felipe Toledo, Trey Woodlief, Sebastian Elbaum, and Matthew B. Dwyer. &quot;Specifying and Monitoring Safe Driving Properties with Scene Graphs.&quot; In 2024 IEEE International Conference on Robotics and Automation (ICRA), pp. 15577-15584. IEEE, 2024.'
 bibtex: '@inproceedings{toledo2024specifying,title={Specifying and Monitoring Safe Driving Properties with Scene Graphs},author={Toledo, Felipe and Woodlief, Trey and Elbaum, Sebastian and Dwyer, Matthew B},booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},pages={15577--15584},year={2024},organization={IEEE}}'
 image: '/images/icra24.png'
 github: 'https://github.com/less-lab-uva/sgsm'

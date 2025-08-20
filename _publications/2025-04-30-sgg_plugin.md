@@ -7,8 +7,17 @@ excerpt: 'The software engineering community has increasingly taken up the task 
 To address this, we developed a plugin for the widely-used ADS simulator CARLA called CarlaSGG, that extracts relevant ground-truth spatial and semantic information from the simulator state at runtime in the form of scene graphs, enabling online and post-hoc automatic reasoning about the semantics of the scenario and associated sensor data. The tool has been successfully deployed in multiple previous software engineering approach evaluations which we describe to demonstrate the utility of the tool. The precision of the semantic information captured in the scene graph can be adjusted by the client application to suit the needs of the implementation. We provide a detailed description of the tool’s design, capabilities, and configurations, with additional documentation available accompanying the tool’s online source: https://github.com/less-lab-uva/carla_scene_graphs.'
 date: 2025-04-30
 venue: '47th International Conference on Software Engineering: Demonstrations (ICSE-DEMO&apos;25)'
-citation: 'Coming Soon'
-bibtex: 'Coming Soon'
+citation: 'Trey Woodlief, Felipe Toledo, Sebastian Elbaum, and Matthew B. Dwyer, &quot;Closing the Gap Between Sensor Inputs and Driving Properties: A Scene Graph Generator for CARLA,&quot; 2025 IEEE/ACM 47th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion), Ottawa, ON, Canada, 2025, pp. 29-32, doi: 10.1109/ICSE-Companion66252.2025.00017.'
+bibtex: '@INPROCEEDINGS{11024428,
+  author={Woodlief, Trey and Toledo, Felipe and Elbaum, Sebastian and Dwyer, Matthew B.},
+  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)},
+  title={Closing the Gap Between Sensor Inputs and Driving Properties: A Scene Graph Generator for CARLA},
+  year={2025},
+  volume={},
+  number={},
+  pages={29-32},
+  doi={10.1109/ICSE-Companion66252.2025.00017}}
+'
 github: 'https://github.com/less-lab-uva/carla_scene_graphs'
 paper_type: 'DEMO'
 journal: false

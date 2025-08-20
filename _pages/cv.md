@@ -190,8 +190,9 @@ Full publication list:
 
 # Service
 ## Mentorship
-* Johann Mission, Mathushan Mathyvannan, Yili Bai, Zachariah Risheq
-  * Supported undergrad research on benchmarking autonomous systems; manuscript under submission
+* Yili Bai, Johann Mission, Mathushan Mathyvannan, Zachariah Risheq
+  * Supported undergrad research on benchmarking autonomous systems
+  * Work culminated in [FSE-DEMO'25 Publication](/publication/2025-06-20-steer_future)
 * [Garrett Christian](https://www.linkedin.com/in/garrett-christian/)
   * Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
 

@@ -6,8 +6,9 @@ excerpt: 'The proliferation of autonomous vehicles (AVs) has made their failures
 date: 2025-04-30
 venue: '47th International Conference on Software Engineering (ICSE 2025)'
 paperurl: '/files/Differential_Testing_ICSE_2025.pdf'
-citation: 'Coming Soon'
-bibtex: 'Coming Soon'
+citation: 'Trey Woodlief, Carl Hildebrandt, and Sebastian Elbaum, &quot;A Differential Testing Framework to Identify Critical AV Failures Leveraging Arbitrary Inputs,&quot; in 2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE), Ottawa, ON, Canada, 2025, pp. 360-372, doi: 10.1109/ICSE55347.2025.00163.'
+bibtex: '@INPROCEEDINGS {woodlief_differential_2025,author = { Woodlief, Trey and Hildebrandt, Carl and Elbaum, Sebastian },booktitle = { 2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE) },title = {{ A Differential Testing Framework to Identify Critical AV Failures Leveraging Arbitrary Inputs }},year = {2025},volume = {},ISSN = {},pages = {360-372},doi = {10.1109/ICSE55347.2025.00163},url = {https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00163},publisher = {IEEE Computer Society},address = {Los Alamitos, CA, USA},month ={May}}
+'
 image: '/images/difftest4av_splash.png'
 github: 'https://github.com/less-lab-uva/DiffTest4AV'
 paper_type: 'FULL'

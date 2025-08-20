@@ -6,7 +6,7 @@ excerpt: 'Although Driving Automation Systems (DASs) are rapidly becoming more a
 date: 2024-10-18
 venue: '2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS&apos;24)'
 paperurl: 'https://github.com/hildebrandt-carl/ODD_diLLMma_Artifact/blob/master/PaperArtifact/ODD_diLLMma_Paper.pdf'
-citation: 'Hildebrandt, Carl, Trey Woodlief, and Sebastian Elbaum. &quot;ODD-diLLMma: Driving Automation System ODD Compliance Checking using LLMs.&quot; 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2024.'
+citation: 'Carl Hildebrandt, Trey Woodlief, and Sebastian Elbaum. &quot;ODD-diLLMma: Driving Automation System ODD Compliance Checking using LLMs.&quot; 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2024.'
 bibtex: '@inproceedings{hildebrandt2024odd,  title={ODD-diLLMma: Driving Automation System ODD Compliance Checking using LLMs},  author={Hildebrandt, Carl and Woodlief, Trey and Elbaum, Sebastian},  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},  pages={13809--13816},  year={2024},  organization={IEEE}}'
 image: '/images/odd-dillmma.png'
 github: 'https://github.com/hildebrandt-carl/ODD_diLLMma_Artifact'
