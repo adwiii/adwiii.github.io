@@ -196,12 +196,16 @@ Full publication list:
   * Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
 
 ## Academic
-* **Program Committee** 2025 ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
-* **Reviewer** 2025 International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
-* **Reviewer** 2024 IEEE Transactions on Software Engineering (TSE)
-* **Reviewer** 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)
-* **Reviewer** 2024 International Journal of Robotics Research (IJRR)
-* **Reviewer** 2022 IEEE International Conference on Robotics and Automation (ICRA'22)
+Time periods reflect that of the service.
+
+* **Reviewer** Fall 2025 - ACM Transactions on Software Engineering and Methodology (TOSEM)
+* **Program Committee** Fall 2025 - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
+* **Program Committee** Spring 2025 - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
+* **Reviewer** Fall 2024 - International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
+* **Reviewer** Spring 2024 - IEEE Transactions on Software Engineering (TSE)
+* **Reviewer** Spring 2024 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)
+* **Reviewer** Spring 2024 - International Journal of Robotics Research (IJRR)
+* **Reviewer** Fall 2021 - IEEE International Conference on Robotics and Automation (ICRA'22)
 
 ## *FIRST* Robotics
 
