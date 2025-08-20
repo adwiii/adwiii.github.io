@@ -1,6 +1,6 @@
 - program: All
   role: Referee
-  count: 123
+  count: 124
 - program: All
   role: Setup
   count: 15
@@ -30,7 +30,7 @@
   count: 1
 - program: FTC
   role: Referee
-  count: 74
+  count: 75
 - program: FTC
   role: Inspector
   count: 10
