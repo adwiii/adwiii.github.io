@@ -48,7 +48,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {% if post.course_website %} <a href="{{ post.course_website }}">{{ post.type }}</a>{% else %}{{ post.type }}{% endif %}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {% if post.course_website %} Course Website: <a href="{{ post.course_website }}">{{ post.type }}</a>{% else %}{{ post.type }}{% endif %}<br><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
