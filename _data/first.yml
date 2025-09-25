@@ -1231,12 +1231,21 @@
   - event: North East Maryland Kickoff
     event_end: 9/6/2025
     event_start: 9/6/2025
+    in_future: false
+    num_days: 1
+    program: FTC
+    roles:
+    - Head Referee
+    season: 2026
+  - event: FIRST Tech Challenge DECODE Preview Event
+    event_end: 10/18/2025
+    event_start: 10/18/2025
     in_future: true
     num_days: 1
     program: FTC
     roles:
     - Head Referee
     season: 2026
-  num_days: 0
-  num_events_happened: 0
+  num_days: 1
+  num_events_happened: 1
   season: 2026

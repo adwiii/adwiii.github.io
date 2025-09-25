@@ -16,7 +16,8 @@ My legal name is Alan, which may appear in some places that show given name, e.g
 # Education
 ## University of Virginia 2019-2025
 * Ph.D. Computer Science
-* Co-advised Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
+  * Dissertation: *Bridging the Semantic Gap between Autonomous Vehicle Requirements and Complex Sensor Data* [\[link\]](https://doi.org/10.18130/1fsd-jt85)
+  * Co-advised Dr. [Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/) and Dr. [Kevin Sullivan](https://engineering.virginia.edu/faculty/kevin-sullivan)
 
 ## University of Virginia 2019-2022
 * M. Computer Science (MCS)
@@ -199,6 +200,7 @@ Full publication list:
 ## Academic
 Time periods reflect that of the service.
 
+* **Reviewer** Fall 2025 - The Journal of Systems & Software (JSS)
 * **Reviewer** Fall 2025 - ACM Transactions on Software Engineering and Methodology (TOSEM)
 * **Program Committee** Fall 2025 - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
 * **Program Committee** Spring 2025 - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
