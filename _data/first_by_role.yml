@@ -1,6 +1,6 @@
 - program: All
   role: Referee
-  count: 75
+  count: 76
 - program: All
   role: Head Referee
   count: 50
@@ -36,7 +36,7 @@
   count: 1
 - program: FRC
   role: Referee
-  count: 31
+  count: 32
 - program: FRC
   role: Field Assembly
   count: 8

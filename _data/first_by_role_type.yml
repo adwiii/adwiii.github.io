@@ -1,6 +1,6 @@
 - program: All
   role: Referee
-  count: 125
+  count: 126
 - program: All
   role: Setup
   count: 15
@@ -21,7 +21,7 @@
   count: 1
 - program: FRC
   role: Referee
-  count: 38
+  count: 39
 - program: FRC
   role: Setup
   count: 14
