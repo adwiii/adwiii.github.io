@@ -46,6 +46,7 @@ class EventVolunteering:
             self.roles.remove('Referee')
 
 JOB_TYPES = {
+    'Global Key Head Referee': 'Referee',
     'Head Referee': 'Referee',
     'Referee': 'Referee',
     'Robot Inspector': 'Inspector',
