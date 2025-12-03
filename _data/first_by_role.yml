@@ -1,6 +1,6 @@
 - program: All
   role: Referee
-  count: 77
+  count: 78
 - program: All
   role: Head Referee
   count: 52
@@ -23,6 +23,9 @@
   role: Field Inspector
   count: 2
 - program: All
+  role: Global Key Head Referee
+  count: 2
+- program: All
   role: Scoring System Development
   count: 1
 - program: All
@@ -33,9 +36,6 @@
   count: 1
 - program: All
   role: Official Scorer
-  count: 1
-- program: All
-  role: Global Key Head Referee
   count: 1
 - program: FRC
   role: Referee
@@ -54,7 +54,7 @@
   count: 1
 - program: FTC
   role: Referee
-  count: 40
+  count: 41
 - program: FTC
   role: Head Referee
   count: 39
@@ -71,6 +71,9 @@
   role: Field Inspector
   count: 2
 - program: FTC
+  role: Global Key Head Referee
+  count: 2
+- program: FTC
   role: Scoring System Development
   count: 1
 - program: FTC
@@ -81,9 +84,6 @@
   count: 1
 - program: FTC
   role: Field Disassembly
-  count: 1
-- program: FTC
-  role: Global Key Head Referee
   count: 1
 - program: FLL-C
   role: Head Referee

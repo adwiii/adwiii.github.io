@@ -202,7 +202,7 @@ Time periods reflect that of the service.
 
 * **Reviewer** Fall 2025 - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
 * **Reviewer** Fall 2025 - The Journal of Systems & Software (JSS)
-* **Reviewer** Fall 2025 - ACM Transactions on Software Engineering and Methodology (TOSEM)
+* **Reviewer** Fall 2025 - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
 * **Program Committee** Fall 2025 - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
 * **Program Committee** Spring 2025 - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
 * **Reviewer** Fall 2024 - International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)

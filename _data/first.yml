@@ -1255,6 +1255,15 @@
     roles:
     - Global Key Head Referee
     season: 2026
+  - event: Roanoke, VA Qualifier
+    event_end: 12/07/2025
+    event_start: 12/07/2025
+    in_future: true
+    num_days: 1
+    program: FTC
+    roles:
+    - Referee
+    season: 2026
   - event: Powhatan, VA Qualifier I
     event_end: 1/10/2026
     event_start: 1/10/2026
@@ -1290,6 +1299,15 @@
     program: FTC
     roles:
     - Head Referee
+    season: 2026
+  - event: FIRST Championship
+    event_end: 5/2/2026
+    event_start: 4/28/2026
+    in_future: true
+    num_days: 4
+    program: FTC
+    roles:
+    - Global Key Head Referee
     season: 2026
   num_days: 2
   num_events_happened: 2
