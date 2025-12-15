@@ -1,9 +1,9 @@
 - program: All
   role: Referee
-  count: 78
+  count: 79
 - program: All
   role: Head Referee
-  count: 52
+  count: 53
 - program: All
   role: Field Assembly
   count: 8
@@ -54,10 +54,10 @@
   count: 1
 - program: FTC
   role: Referee
-  count: 41
+  count: 42
 - program: FTC
   role: Head Referee
-  count: 39
+  count: 40
 - program: FTC
   role: Robot Inspector
   count: 5
