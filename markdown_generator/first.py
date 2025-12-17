@@ -119,11 +119,21 @@ def main():
             by_role[event.program][role] += 1
             by_role['All'][role] += 1
     flattened_by_role = []
+    flattened_by_program = []
     for program in by_role:
         for k, v in sorted(by_role[program].items(), key=lambda item: item[1], reverse=True):
             flattened_by_role.append({'program': program, 'role': k, 'count': v})
+    prog_count = defaultdict(int)
+    for event in event_list:
+        prog_count[event.program] += 1
+        prog_count['All'] += 1
+    programs = sorted(list(prog_count.keys()), key=lambda x: prog_count[x], reverse=True)
+    for program in programs:
+        flattened_by_program.append({'program': program, 'count': prog_count[program]})
     with open(f'{dir_path_parent}/_data/first_by_role_type.yml', 'w') as f:
         yaml.dump(flattened_by_role, f, sort_keys=False)
+    with open(f'{dir_path_parent}/_data/first_by_program.yml', 'w') as f:
+        yaml.dump(flattened_by_program, f, sort_keys=False)
     tex_string = f'\subsubsection*{{Volunteering at \\textit{{FIRST}} Events -- {num_events_happened} Events spanning {total_days_happened} Days across {len(flattened_seasons)} Seasons}}\n'
     # tex_string +=  ('I volunteer at as many \\textit{FIRST} events as I can each season. Events are listed under each season based on what game was played at the event;'
     #                 ' accordingly, summer and fall off season events show in the previous season.\\\\ \n')

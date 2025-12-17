@@ -1309,12 +1309,48 @@
     roles:
     - Head Referee
     season: 2026
+  - event: Salem Academy Qualifier
+    event_end: 1/24/2026
+    event_start: 1/24/2026
+    in_future: true
+    num_days: 1
+    program: FTC
+    roles:
+    - Head Referee
+    season: 2026
+  - event: Salem Academy Qualifier 2
+    event_end: 1/25/2026
+    event_start: 1/25/2026
+    in_future: true
+    num_days: 1
+    program: FTC
+    roles:
+    - Head Referee
+    season: 2026
   - event: Chesapeake Championship
     event_end: 2/08/2026
     event_start: 2/07/2026
     in_future: true
     num_days: 1
     program: FTC
+    roles:
+    - Head Referee
+    season: 2026
+  - event: United States Governors Cup
+    event_end: 2/21/2026
+    event_start: 2/20/2026
+    in_future: true
+    num_days: 1
+    program: FTC
+    roles:
+    - Head Referee
+    season: 2026
+  - event: FCH District Blacksburg VA Event
+    event_end: 3/29/2026
+    event_start: 3/27/2026
+    in_future: true
+    num_days: 2
+    program: FRC
     roles:
     - Head Referee
     season: 2026

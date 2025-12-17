@@ -81,3 +81,17 @@ I volunteer at as many *FIRST* events as I can each season. I try to keep this l
 {% endfor %}
 </table>
 </details>
+
+<details>
+<summary>Breakdown by program</summary>
+<table>
+<tr><th style="text-align: center">Program</th><th>Quantity</th></tr>
+{% for item in site.data.first_by_program %}
+    <tr>
+        <td style="text-align: center"><span class="program-pill {{ item.program }}"> {{ item.program }} </span>
+        </td>
+        <td>{{ item.count }}</td>
+    </tr>
+{% endfor %}
+</table>
+</details>
