@@ -1,7 +1,7 @@
 - program: All
-  count: 144
+  count: 142
 - program: FTC
-  count: 92
+  count: 90
 - program: FRC
   count: 41
 - program: FLL-C
