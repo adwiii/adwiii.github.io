@@ -200,6 +200,7 @@ Full publication list:
 ## Academic
 Time periods reflect that of the service.
 
+* **Reviewer** Spring 2026 - IEEE Transactions on Software Engineering (TSE)
 * **Reviewer** Fall 2025 - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
 * **Reviewer** Fall 2025 - The Journal of Systems & Software (JSS)
 * **Reviewer** Fall 2025 - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
