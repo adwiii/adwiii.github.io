@@ -200,17 +200,23 @@ Full publication list:
 ## Academic
 Time periods reflect that of the service.
 
-* **Reviewer** Spring 2026 - IEEE Transactions on Software Engineering (TSE)
-* **Reviewer** Fall 2025 - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
-* **Reviewer** Fall 2025 - The Journal of Systems & Software (JSS)
-* **Reviewer** Fall 2025 - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
-* **Program Committee** Fall 2025 - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
-* **Program Committee** Spring 2025 - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
-* **Reviewer** Fall 2024 - International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
-* **Reviewer** Spring 2024 - IEEE Transactions on Software Engineering (TSE)
-* **Reviewer** Spring 2024 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)
-* **Reviewer** Spring 2024 - International Journal of Robotics Research (IJRR)
-* **Reviewer** Fall 2021 - IEEE International Conference on Robotics and Automation (ICRA'22)
+* Spring 2026
+  * **Reviewer** Spring 2026 - IEEE Transactions on Software Engineering (TSE)
+* Fall 2025 
+  * **Reviewer** Fall 2025 - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
+  * **Reviewer** Fall 2025 - The Journal of Systems & Software (JSS)
+  * **Reviewer** Fall 2025 - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
+  * **Program Committee** Fall 2025 - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
+* Spring 2025
+  * **Program Committee** Spring 2025 - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
+* Fall 2024
+* **Reviewer** - International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
+* Spring 2024
+  * **Reviewer** - IEEE Transactions on Software Engineering (TSE)
+  * **Reviewer** - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)
+  * **Reviewer** - International Journal of Robotics Research (IJRR)
+* Fall 2021
+  * **Reviewer** - IEEE International Conference on Robotics and Automation (ICRA'22)
 
 ## *FIRST* Robotics
 
