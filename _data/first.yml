@@ -1285,7 +1285,7 @@
   - event: Powhatan, VA Qualifier I
     event_end: 1/10/2026
     event_start: 1/10/2026
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
@@ -1294,11 +1294,11 @@
   - event: Powhatan, VA Qualifier II
     event_end: 1/11/2026
     event_start: 1/11/2026
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
-    - Referee
+    - Head Referee
     season: 2026
   - event: Norfolk, VA Qualifier
     event_end: 1/18/2026
@@ -1345,6 +1345,6 @@
     roles:
     - Global Key Head Referee
     season: 2026
-  num_days: 5
-  num_events_happened: 5
+  num_days: 7
+  num_events_happened: 7
   season: 2026
