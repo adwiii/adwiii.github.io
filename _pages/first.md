@@ -29,14 +29,20 @@ Years given are for the spring semester of that academic year.
 ### Volunteering at *FIRST* Events ({{ total_event_count }} Events spanning {{ total_day_count }} Days across {{ number_of_seasons }} Seasons)
 I volunteer at as many *FIRST* events as I can each season. I try to keep this list updated with the events I will volunteer at in the future, so come by and say hi. Events are listed under each season based on what game was played at the event; accordingly, summer and fall off season events show in the previous season.
 
+{% assign running_event_count = 0 %}
+{% assign running_day_count = 0 %}
+
 {% for season in site.data.first %}
 {% assign season_start_year = season.season | minus: 1 %}
   <details>
   <summary>{{ season_start_year }}-{{ season.season }} Season ({{ season.events.size }} Events; {{season.num_days}} Days)</summary>
   <table>
-  <tr><th>Event Date</th><th style="text-align: center">Program</th><th>Event</th><th>Role(s)</th></tr>
+  <tr><th>Event #</th><th>Event Date</th><th style="text-align: center">Program</th><th>Event</th><th>Role(s)</th><th>Day #</th></tr>
   {% for event in season.events %}
+    {% assign running_event_count = running_event_count | plus: 1 %}
+    {% assign running_day_count = running_day_count | plus: event.num_days %}
     <tr>
+    <td>{{ running_event_count }}</td>
     <td>{{ event.event_start }}
     {% if event.event_start != event.event_end %}
     - {{ event.event_end }}
@@ -46,6 +52,7 @@ I volunteer at as many *FIRST* events as I can each season. I try to keep this l
     </td>
     <td>{{ event.event }}</td>
     <td>{% for role in event.roles %}{{ role }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</td>
+    <td>{{ running_day_count }}</td>
   </tr>
   {% endfor %}
   </table>
