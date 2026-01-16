@@ -37,7 +37,7 @@ I volunteer at as many *FIRST* events as I can each season. I try to keep this l
   <details>
   <summary>{{ season_start_year }}-{{ season.season }} Season ({{ season.events.size }} Events; {{season.num_days}} Days)</summary>
   <table>
-  <tr><th>Event #</th><th>Event Date</th><th style="text-align: center">Program</th><th>Event</th><th>Role(s)</th><th>Day #</th></tr>
+  <tr><th>Event&nbsp;#</th><th>Event Date</th><th style="text-align: center">Program</th><th>Event</th><th>Role(s)</th><th>Day&nbsp;#</th></tr>
   {% for event in season.events %}
     {% assign running_event_count = running_event_count | plus: 1 %}
     {% assign running_day_count = running_day_count | plus: event.num_days %}

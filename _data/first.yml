@@ -94,7 +94,7 @@
     event_end: 3/11/2016
     event_start: 3/9/2016
     in_future: false
-    num_days: 2
+    num_days: 3
     program: FTC
     roles:
     - Referee
@@ -144,7 +144,7 @@
     roles:
     - Referee
     season: 2016
-  num_days: 23
+  num_days: 24
   num_events_happened: 16
   season: 2016
 - events:
@@ -386,7 +386,7 @@
     event_end: 3/10/2018
     event_start: 3/8/2018
     in_future: false
-    num_days: 2
+    num_days: 3
     program: FTC
     roles:
     - Scoring System Development
@@ -431,7 +431,7 @@
     roles:
     - Head Referee
     season: 2018
-  num_days: 18
+  num_days: 19
   num_events_happened: 14
   season: 2018
 - events:
@@ -739,7 +739,7 @@
     event_end: 1/30/2022
     event_start: 1/29/2022
     in_future: false
-    num_days: 1
+    num_days: 2
     program: FTC
     roles:
     - Scorekeeper
@@ -748,7 +748,7 @@
     event_end: 2/6/2022
     event_start: 2/5/2022
     in_future: false
-    num_days: 1
+    num_days: 2
     program: FTC
     roles:
     - Scorekeeper
@@ -807,7 +807,7 @@
     roles:
     - Referee
     season: 2022
-  num_days: 14
+  num_days: 16
   num_events_happened: 11
   season: 2022
 - events:
@@ -1210,7 +1210,7 @@
     event_end: 7/20/2025
     event_start: 7/18/2025
     in_future: false
-    num_days: 2
+    num_days: 3
     program: FTC
     roles:
     - Referee
@@ -1219,7 +1219,7 @@
     event_end: 7/27/2025
     event_start: 7/25/2025
     in_future: false
-    num_days: 2
+    num_days: 3
     program: FTC
     roles:
     - Head Referee
@@ -1233,7 +1233,7 @@
     roles:
     - Referee
     season: 2025
-  num_days: 20
+  num_days: 22
   num_events_happened: 17
   season: 2025
 - events:
@@ -1313,7 +1313,7 @@
     event_end: 2/08/2026
     event_start: 2/07/2026
     in_future: true
-    num_days: 1
+    num_days: 2
     program: FTC
     roles:
     - Head Referee
@@ -1322,7 +1322,7 @@
     event_end: 2/21/2026
     event_start: 2/20/2026
     in_future: true
-    num_days: 1
+    num_days: 2
     program: FTC
     roles:
     - Head Referee
@@ -1340,7 +1340,7 @@
     event_end: 3/15/2026
     event_start: 3/13/2026
     in_future: true
-    num_days: 2
+    num_days: 3
     program: FTC
     roles:
     - Global Key Head Referee
@@ -1358,7 +1358,7 @@
     event_end: 5/2/2026
     event_start: 4/28/2026
     in_future: true
-    num_days: 4
+    num_days: 5
     program: FTC
     roles:
     - Global Key Head Referee
@@ -1367,7 +1367,7 @@
     event_end: 7/26/2026
     event_start: 7/25/2026
     in_future: true
-    num_days: 1
+    num_days: 2
     program: FTC
     roles:
     - Head Referee

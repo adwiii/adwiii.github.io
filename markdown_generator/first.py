@@ -24,6 +24,8 @@ class EventVolunteering:
         self.num_days = 1
         if self.event_start != self.event_end:
             self.num_days = (self.event_end_time - self.event_start_time).days
+            if self.program != 'FRC':  # for FRC, there is always an extra day on the front. I think?
+                self.num_days += 1
 
     def event_key(self):
         return f'{self.program}_{self.season}_{self.event}'
