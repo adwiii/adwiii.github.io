@@ -22,9 +22,9 @@ Years given are for the spring semester of that academic year.
 {% assign number_of_seasons = 0 %}
 {% assign total_day_count = 0 %}
 {% for season in site.data.first %}
-{% assign number_of_seasons = number_of_seasons | plus: 1 %}
-{% assign total_event_count = total_event_count | plus: season.events.size %}
-{% assign total_day_count = total_day_count | plus: season.num_days %}
+    {% assign number_of_seasons = number_of_seasons | plus: 1 %}
+    {% assign total_event_count = total_event_count | plus: season.events.size %}
+    {% assign total_day_count = total_day_count | plus: season.num_days %}
 {% endfor %}
 ### Volunteering at *FIRST* Events ({{ total_event_count }} Events spanning {{ total_day_count }} Days across {{ number_of_seasons }} Seasons)
 I volunteer at as many *FIRST* events as I can each season. I try to keep this list updated with the events I will volunteer at in the future, so come by and say hi. Events are listed under each season based on what game was played at the event; accordingly, summer and fall off season events show in the previous season.
