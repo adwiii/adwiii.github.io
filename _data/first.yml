@@ -1303,7 +1303,7 @@
   - event: Norfolk, VA Qualifier
     event_end: 1/18/2026
     event_start: 1/18/2026
-    in_future: true
+    in_future: false
     num_days: 1
     program: FTC
     roles:
@@ -1312,7 +1312,7 @@
   - event: Chesapeake Championship
     event_end: 2/08/2026
     event_start: 2/07/2026
-    in_future: true
+    in_future: false
     num_days: 2
     program: FTC
     roles:
@@ -1372,6 +1372,6 @@
     roles:
     - Head Referee
     season: 2026
-  num_days: 7
-  num_events_happened: 7
+  num_days: 10
+  num_events_happened: 9
   season: 2026
