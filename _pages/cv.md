@@ -201,18 +201,18 @@ Full publication list:
 Time periods reflect that of the service.
 
 * Spring 2026
-  * **Reviewer** Spring 2026 - ACM Transactions on Software Engineering and Methodology (TOSEM)
-  * **Program Committee** Spring 2026 - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RNR)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
-  * **Reviewer** Spring 2026 - IEEE Transactions on Software Engineering (TSE)
+  * **Reviewer** - ACM Transactions on Software Engineering and Methodology (TOSEM)
+  * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RNR)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
+  * **Reviewer** - IEEE Transactions on Software Engineering (TSE)
 * Fall 2025 
-  * **Reviewer** Fall 2025 - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
-  * **Reviewer** Fall 2025 - The Journal of Systems & Software (JSS)
-  * **Reviewer** Fall 2025 - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
-  * **Program Committee** Fall 2025 - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
+  * **Reviewer** - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
+  * **Reviewer** - The Journal of Systems & Software (JSS)
+  * **Reviewer** - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
+  * **Program Committee** - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
 * Spring 2025
-  * **Program Committee** Spring 2025 - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
+  * **Program Committee** - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
 * Fall 2024
-* **Reviewer** - International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
+  * **Reviewer** - International Conference on Software Engineering Research Track Shadow Program Committee (ICSE-Shadow'25)
 * Spring 2024
   * **Reviewer** - IEEE Transactions on Software Engineering (TSE)
   * **Reviewer** - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)
