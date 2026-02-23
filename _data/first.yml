@@ -1321,8 +1321,17 @@
   - event: United States Governors Cup
     event_end: 2/21/2026
     event_start: 2/20/2026
-    in_future: true
+    in_future: false
     num_days: 2
+    program: FTC
+    roles:
+    - Head Referee
+    season: 2026
+  - event: North Carolina Championship
+    event_end: 2/22/2026
+    event_start: 2/22/2026
+    in_future: false
+    num_days: 1
     program: FTC
     roles:
     - Head Referee
@@ -1372,6 +1381,6 @@
     roles:
     - Head Referee
     season: 2026
-  num_days: 10
-  num_events_happened: 9
+  num_days: 13
+  num_events_happened: 11
   season: 2026
