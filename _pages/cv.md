@@ -201,9 +201,10 @@ Full publication list:
 Time periods reflect that of the service.
 
 * Spring 2026
+  * **Reviewer** - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'26)
   * **Reviewer** - ACM Transactions on Software Engineering and Methodology (TOSEM)
   * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RNR)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
-  * **Reviewer** - IEEE Transactions on Software Engineering (TSE)
+  * **Reviewer** - 2x IEEE Transactions on Software Engineering (TSE)
 * Fall 2025 
   * **Reviewer** - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
   * **Reviewer** - The Journal of Systems & Software (JSS)
