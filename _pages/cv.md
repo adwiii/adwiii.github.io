@@ -205,10 +205,12 @@ Full publication list:
 Time periods reflect that of the service.
 
 ## Reviews & Program Committees
+* Fall 2026
+  * **Program Committee** - 2027 ACM International Conference on the Foundations of Software Engineering (FSE'27)
 * Spring 2026
   * **Reviewer** - Future Transportation
   * **Reviewer** - 2x IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'26)
-  * **Reviewer** - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
+  * **Reviewer** - 5x ACM Transactions on Software Engineering and Methodology (TOSEM)
   * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RNR)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
   * **Reviewer** - 3x IEEE Transactions on Software Engineering (TSE)
 * Fall 2025 
