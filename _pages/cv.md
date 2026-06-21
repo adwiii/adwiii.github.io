@@ -202,22 +202,23 @@ Full publication list:
   * Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
 
 # Academic Service
-Time periods reflect that of the service.
+Time periods reflect that of the service. For Journals, the number of paper reviews are specified; Program Committee service omits the number of papers reviewed.
 
 ## Reviews & Program Committees
 * Fall 2026
   * **Program Committee** - 2027 ACM International Conference on the Foundations of Software Engineering [(FSE'27)](https://conf.researchr.org/committee/fse-2027/fse-2027-papers-program-committee)
 * Spring 2026
+* * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RENE)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
+  * **Reviewer** - Empirical Software Engineering
   * **Reviewer** - Future Transportation
   * **Reviewer** - 2x IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'26)
   * **Reviewer** - 6x ACM Transactions on Software Engineering and Methodology (TOSEM)
-  * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RNR)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
   * **Reviewer** - 4x IEEE Transactions on Software Engineering (TSE)
 * Fall 2025 
+  * **Program Committee** - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25) 
   * **Reviewer** - 2x IEEE International Conference on Robotics and Automation (ICRA'26)
   * **Reviewer** - The Journal of Systems & Software (JSS)
   * **Reviewer** - 3x ACM Transactions on Software Engineering and Methodology (TOSEM)
-  * **Program Committee** - 3rd IEEE International Workshop on Reliable and Secure AI for Software Engineering (ReSAISE'25)
 * Spring 2025
   * **Program Committee** - ICSE'25 Software Engineering for Autonomous Driving Systems Workshop (SE4ADS'25)
 * Fall 2024
