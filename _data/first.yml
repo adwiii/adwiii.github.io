@@ -1385,12 +1385,12 @@
   - event: Carolinas Premier Event
     event_end: 7/26/2026
     event_start: 7/25/2026
-    in_future: true
+    in_future: false
     num_days: 2
     program: FTC
     roles:
     - Head Referee
     season: 2026
-  num_days: 27
-  num_events_happened: 16
+  num_days: 29
+  num_events_happened: 17
   season: 2026
