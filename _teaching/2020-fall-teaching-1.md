@@ -1,6 +1,7 @@
 ---
-title: "Fall 2020 - Teaching Assistant"
+title: "Fall 2020 - CS 6888"
 collection: teaching
+role: "Teaching Assistant"
 type: "CS 6888 Program Analysis and its Applications"
 permalink: /teaching/2020-fall-teaching-1
 venue: "University of Virginia (Virtual)"

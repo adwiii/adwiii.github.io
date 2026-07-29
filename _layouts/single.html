@@ -42,10 +42,10 @@ layout: default
           {% endif %}
 
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ page.type }}, {{page.role}}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% if page.course_website or page.description %}
           <p>
-            {% if page.course_website %} <a href="{{ page.course_website }}">Course Website</a><br> {% endif %}
+            {% if page.course_website %} <a href="{{ page.course_website }}">Course Website</a><br><br> {% endif %}
             {{ page.description }}
           </p>
           {% endif %}

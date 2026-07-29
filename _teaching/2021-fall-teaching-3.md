@@ -1,6 +1,7 @@
 ---
-title: "Fall 2021 - Senior Teaching Assistant"
+title: "Fall 2021 - CS 6888"
 collection: teaching
+role: "Senior Teaching Assistant"
 type: "CS 6888 Program Analysis and its Applications"
 permalink: /teaching/2021-fall-teaching-3
 venue: "University of Virginia"

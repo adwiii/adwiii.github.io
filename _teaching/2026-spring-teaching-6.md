@@ -1,6 +1,7 @@
 ---
-title: "Spring 2026 - Instructor"
+title: "Spring 2026 - CSCI 780"
 collection: teaching
+role: "Instructor"
 type: "CSCI 780 Validation and Verification of Autonomous Systems"
 permalink: /teaching/2026-spring-teaching-6
 venue: "William & Mary"

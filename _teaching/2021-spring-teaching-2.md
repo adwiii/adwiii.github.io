@@ -1,6 +1,7 @@
 ---
-title: "Spring 2021 - Teaching Assistant"
+title: "Spring 2021 - CS 4501"
 collection: teaching
+role: "Teaching Assistant"
 type: "CS 4501 Robotics for Software Engineers"
 permalink: /teaching/2021-spring-teaching-2
 venue: "University of Virginia (Virtual)"

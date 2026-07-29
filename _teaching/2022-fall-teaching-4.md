@@ -1,6 +1,7 @@
 ---
-title: "Fall 2022 - Senior Teaching Assistant"
+title: "Fall 2022 - CS 4501"
 collection: teaching
+role: "Senior Teaching Assistant"
 type: "CS 4501 Robotics for Software Engineers"
 permalink: /teaching/2021-fall-teaching-4
 venue: "University of Virginia"
