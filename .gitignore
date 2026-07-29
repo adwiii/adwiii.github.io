@@ -2,3 +2,4 @@ _site/
 .idea/
 .venv/
 .sass-cache/
+set_path.sh

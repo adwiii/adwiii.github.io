@@ -218,11 +218,9 @@ body:hover .visually-hidden button {
     color: $github-color;
   }
 
-  .fa-map-marker {
-    color: $location-color;
-  }
-
-  .fa-briefcase {
+  .fa-map-marker,
+  .fa-briefcase,
+  .fa-clock {
     color: $location-color;
   }
 

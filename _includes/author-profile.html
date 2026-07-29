@@ -25,6 +25,9 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
+      {% if author.officehours %}
+        <li title="Office Hours; Other times available by appointment"><i class="fas fa-fw fa-clock" aria-hidden="true"></i> {{ author.officehours }}</li>
+      {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
