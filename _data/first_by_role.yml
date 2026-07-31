@@ -3,7 +3,7 @@
   count: 80
 - program: All
   role: Head Referee
-  count: 59
+  count: 60
 - program: All
   role: Field Assembly
   count: 8
@@ -54,7 +54,7 @@
   count: 1
 - program: FTC
   role: Head Referee
-  count: 45
+  count: 46
 - program: FTC
   role: Referee
   count: 42
