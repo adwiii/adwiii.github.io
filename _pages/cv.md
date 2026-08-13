@@ -183,7 +183,7 @@ Full publication list:
 * IEEE-Eta Kappa Nu Honor Society (IEEE-HKN) (2016)
 
 ## Extracurricular
-* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) Global Volunteer of the Year<sup>[1](https://www.firstinspires.org/sites/default/files/uploads/annual-report/fy2021-annual-impact-report.pdf#page=34), [2](http://firsttechchallenge.blogspot.com/2021/07/congratulations-to-our-amazing-2020.html)</sup> (2021)
+* [*FIRST* Tech Challenge](https://www.firstinspires.org/robotics/ftc) Global [Volunteer of the Year](https://www.firstinspires.org/resources/library/volunteer-of-the-year-award) (2021)
 * *FIRST* North Carolina [Guilford County District Event](https://youtu.be/UJb6Lta9QqI?si=BZfyL70L6zd9tMVL&t=60) Volunteer Award (2019)
 * Eagle Scout (2013)
 
@@ -192,7 +192,7 @@ Full publication list:
 # Mentorship
 ### William & Mary
 * [Robiul Islam](https://robiul-islam-rubel.github.io) - PhD Advisor
-* [Fahmida Hossain](https://srabonyfahmida.github.io) - PhD Advisor
+* [Fahmida Hossain](https://srabonyfahmida.github.io/) - PhD Advisor
 
 ### UVA
 * Yili Bai, Johann Mission, Mathushan Mathyvannan, Zachariah Risheq
@@ -207,6 +207,7 @@ Time periods reflect that of the service. For Journals, the number of paper revi
 ## Reviews & Program Committees
 * Fall 2026
   * **Program Committee** - 2027 ACM International Conference on the Foundations of Software Engineering [(FSE'27)](https://conf.researchr.org/committee/fse-2027/fse-2027-papers-program-committee)
+  * **Reviewer** - 2x IEEE Transactions on Software Engineering (TSE)
 * Spring 2026
 * * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RENE)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
   * **Reviewer** - Empirical Software Engineering
