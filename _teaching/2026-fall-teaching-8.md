@@ -1,12 +1,13 @@
 ---
-title: "Fall 2026 - COLL 100"
+title: "Fall 2026 - CSCI 420"
 collection: teaching
 role: "Instructor"
-type: "COLL 100 - Critical Questions in Computer Science: Prompt Engineering"
-permalink: /teaching/2025-fall-teaching-8
+type: "CSCI 420 Robotics"
+permalink: /teaching/2025-fall-teaching-7
 venue: "William & Mary"
 date: 2026-08-27
 location: "Williamsburg, VA"
-description: This course introduces computing through prompt engineering—using natural language (i.e., English) to direct Artificial Intelligence (AI) systems. Students learn to solve problems, build projects, and create content using tools like ChatGPT and Microsoft Copilot. The course lowers traditional entry barriers and highlights computer science as an accessible, creative, and impactful field. Real-world applications, ethical discussions, and personal reflections are woven throughout to show how computing intersects with society, shaping social dynamics, influencing emerging values, and redefining the critical roles of computer science in the emerging AI-driven landscape.
+course_website: /CSCI_420_Robotics_Fall_2026/
+description: Developing software for robot systems is challenging as they must sense, represent, and actuate in the physical world. Sensing the physical world is usually noisy, the knowledge and representation of the world is incomplete and uncertain, and actuating in and on the world is often inaccurate. In this class, we will explore software engineering approaches to cope with those challenges. You will learn to use domain-specific abstractions, architectures, libraries, and validation approaches and tools to safely perform robot activities like motion, navigation, perception, planning, and interaction. The expectation is that this course will open up new career options in robotics for our students. The course requires no prior knowledge of robotics.
 ---
 
