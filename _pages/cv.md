@@ -191,14 +191,16 @@ Full publication list:
 
 # Mentorship
 ### William & Mary
-* [Robiul Islam](https://robiulislam1997.github.io/) - PhD Advisor
-* [Fahmida Hossain](https://srabonyfahmida.github.io/) - PhD Advisor
+* [Robiul Islam](https://robiulislam1997.github.io/) - PhD Advisor 2025-
+* [Fahmida Hossain](https://srabonyfahmida.github.io/) - PhD Advisor 2025-
+* Linwood Bailey - Monroe Scholars Undergraduate Research Summer Program 2026
+* Governor's School of Science and Technology [Research Mentor](https://gsst.nhrec.org/senior-research) - AY2026-27
 
 ### UVA
-* Yili Bai, Johann Mission, Mathushan Mathyvannan, Zachariah Risheq
+* Yili Bai, Johann Mission, Mathushan Mathyvannan, Zachariah Risheq - Summer 2024
   * Supported undergrad research on benchmarking autonomous systems
   * Work culminated in [FSE-DEMO'25 Publication](/publication/2025-06-20-steer_future)
-* [Garrett Christian](https://www.linkedin.com/in/garrett-christian/)
+* [Garrett Christian](https://www.linkedin.com/in/garrett-christian/) - 2022
   * Master's at UVA - Work culminated in [ICSE'23 Publication](/publication/2023-5-20-semantic-lidar-fuzzing)
 
 # Academic Service
