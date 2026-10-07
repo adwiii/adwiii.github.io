@@ -207,9 +207,11 @@ Time periods reflect that of the service. For Journals, the number of paper revi
 ## Reviews & Program Committees
 * Fall 2026
   * **Program Committee** - 2027 ACM International Conference on the Foundations of Software Engineering [(FSE'27)](https://conf.researchr.org/committee/fse-2027/fse-2027-papers-program-committee)
-  * **Reviewer** - 2x IEEE Transactions on Software Engineering (TSE)
+  * **Reviewer** - 5x ACM Transactions on Software Engineering and Methodology (TOSEM)
+  * **Reviewer** - 3x IEEE Transactions on Software Engineering (TSE)
+  * **Reviewer** - 1x IEEE International Conference on Robotics and Automation (ICRA'27)
 * Spring 2026
-* * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RENE)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
+  * **Program Committee** - ICSME 2026 ICSME Replication and Negative Results Track [(ICSEME'26 - RENE)](https://conf.researchr.org/committee/icsme-2026/icsme-2026-replication-and-negative-results-program-committee)
   * **Reviewer** - Empirical Software Engineering
   * **Reviewer** - Future Transportation
   * **Reviewer** - 2x IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'26)

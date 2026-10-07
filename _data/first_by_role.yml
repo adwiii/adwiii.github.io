@@ -3,7 +3,7 @@
   count: 80
 - program: All
   role: Head Referee
-  count: 60
+  count: 69
 - program: All
   role: Field Assembly
   count: 8
@@ -20,10 +20,10 @@
   role: Lead Robot Inspector
   count: 3
 - program: All
-  role: Field Inspector
-  count: 2
-- program: All
   role: Global Key Head Referee
+  count: 3
+- program: All
+  role: Field Inspector
   count: 2
 - program: All
   role: Scoring System Development
@@ -54,7 +54,7 @@
   count: 1
 - program: FTC
   role: Head Referee
-  count: 46
+  count: 55
 - program: FTC
   role: Referee
   count: 42
@@ -68,10 +68,10 @@
   role: Lead Robot Inspector
   count: 3
 - program: FTC
-  role: Field Inspector
-  count: 2
-- program: FTC
   role: Global Key Head Referee
+  count: 3
+- program: FTC
+  role: Field Inspector
   count: 2
 - program: FTC
   role: Scoring System Development
