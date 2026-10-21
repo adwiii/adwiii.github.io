@@ -193,8 +193,9 @@ Full publication list:
 ### William & Mary
 * [Robiul Islam](https://robiulislam1997.github.io/) - PhD Advisor 2025-
 * [Fahmida Hossain](https://srabonyfahmida.github.io/) - PhD Advisor 2025-
-* Linwood Bailey - Monroe Scholars Undergraduate Research Summer Program 2026
+* Jingyang Chen - Undergraduate Honors Thesis Advisor AY 2026-27 
 * Governor's School of Science and Technology [Research Mentor](https://gsst.nhrec.org/senior-research) - AY2026-27
+* Linwood Bailey - Monroe Scholars Undergraduate Research Summer Program 2026
 
 ### UVA
 * Yili Bai, Johann Mission, Mathushan Mathyvannan, Zachariah Risheq - Summer 2024
